@@ -89,6 +89,7 @@ product-leadership/
 │   ├── NOTES.md                           ← M4 ideas, takeaways and how the message was written
 │   └── ai-replies/                        ← both models' read of the message as the Growth lead
 ├── 05-business-case/
-│   └── business-case.md                   ← M5: bet, assumptions, return + kill criterion  ★ Deliverable 5
+│   ├── business-case.md                   ← M5: bet, assumptions, return + kill criterion  ★ Deliverable 5
+│   └── NOTES.md                           ← M5 ideas, the funding decision and how the case was built
 └── final-presentation.html                ← M6: the final presentation, from the builder  ★ Deliverable 6
 ```
