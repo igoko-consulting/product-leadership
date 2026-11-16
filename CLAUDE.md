@@ -50,7 +50,7 @@ Practice-only exercises (M3 team situation, M4 negotiation, M5 funding decision,
 
 # Per-module pattern
 
-1. Read the module's Lab Guide and slides from the course PDFs (extract with `pypdf` in a scratchpad venv; `pdftotext` isn't installed; run Python with `-I`). The `plc` pages aren't on the public `ps-content-library` site, so the scenario text, backlog and tension come from Martin: the Final Project Brief or the Lab Guide with his scenario selected, saved as a PDF in the course folder.
+1. Read the module's Lab Guide and slides from the course PDFs (extract with `pypdf` in a scratchpad venv; `pdftotext` isn't installed; run Python with `-I`). The `plc` pages aren't on the public `ps-content-library` site, so the scenario text, backlog and tension come from Martin: the Final Project Brief or the Lab Guide with his scenario selected, saved as a PDF in the course folder. The PDFs print the Lab Guide as it first loads, so expandable parts (optional prompts, scenario-specific text, the markdown preview) are missing; ask Martin to paste those from the live page rather than guessing them.
 2. Work through the Lab Guide in order and write the deliverable. Fill prompt templates with Martin's earlier answers, word for word from the deliverables.
 3. For each lab prompt: record it and the comparison in `PROMPTS.md`, and save both replies in `ai-replies/`.
 4. After class, finish the module's `NOTES.md` beside the deliverable: class notes in Martin's words, bullets with bold sub-headers, each ending with a "Missed:" alternate view.
