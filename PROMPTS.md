@@ -414,3 +414,17 @@ Rock: The steady plan and self-check (Rock 1, from backlog #6). The ask: fund a 
 3. The expected return. Per customer: Each extra monthly-plan user still paying at day 180 is worth about $150 of margin over the next 18 months ($12 a month, after app-store fees; est.). Volume target: 4,000 more monthly-plan users still paying at day 180 in each monthly cohort by month 12 (KR1 from 35% to 55%), about $7.5M of margin a year against about $2.2M for the team of 14.
 4. The kill criterion: If fewer than 35% of concierge participants use the wind-down three or more nights a week by week 6, or fewer than 10% of churned participants resume paying, or the regulatory opinion doesn't clear self-checks, by the end of month 3, we stop the steady plan build, keep only the bedtime reminder and load-time fixes, and return the unspent initiative budget for Next and Later to the board.
 ```
+
+**How the two replies compared** · both replies, word for word: [2-cfo-stress-test.md](05-business-case/ai-replies/2-cfo-stress-test.md)
+
+| Point | GPT-6 | Claude |
+|---|---|---|
+| Verdict | Approve the one-quarter concierge test, not yet the build | The same: approve the test (about $550k), not yet the build |
+| Load-bearing assumption | The 20-point lift, and whether it survives automation | The lift surviving automation: at 70 to 80% kept, 14 to 16 points and LTV:CAC of 2.3 to 2.6 |
+| Per-customer figure | Read $12 as net; asks for the churn behind $150 and finds 2.9:1 with churn 10 points higher | Asks whether $12 is price or net; finds 2.9:1 with churn 10 points higher |
+| Volume and timing | "$7.5M a year" mixes lifetime margin with annual margin; day-180 measurement lag; asks for a break-even month | The same, plus an arithmetic slip ($7.2M, not $7.5M) and its own cash curve breaking even around month 27 |
+| Kill criterion | 4 of 4; add that further money needs a new business case, and minimum sample sizes | 4 of 4; add sample sizes, the roadmap's 30% opt-in, a dollar figure and a kill rule for the build stage |
+
+- **They agreed on the verdict, which is exactly the case's ask:** fund the test, not yet the build.
+- **They agreed on the one fix:** present the return as a cash curve with a break-even month, not as "$7.5M a year", and say plainly whether $12 is the price or the net.
+- **Claude caught an inconsistency with my own roadmap:** the kill criterion left out the 30% opt-in that Now Bet 1 includes.
