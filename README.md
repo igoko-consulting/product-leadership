@@ -32,7 +32,7 @@ Fable bets its one initiative on the people it helped through a hard stretch: a 
 | **M4** Stakeholder message | ☐ | |
 | **M5** Business case | ☐ | |
 
-**Open items carried forward:** the roadmap visual, for the Module 6 builder; for M5, the monthly versus annual plan mix, an LTV case against the cost of 14 people for a year, and real baselines for the roadmap's placeholder thresholds.
+**Open items carried forward:** for M5, the monthly versus annual plan mix, an LTV case against the cost of 14 people for a year, and real baselines for the roadmap's placeholder thresholds.
 
 ## Deliverables at a glance
 
@@ -62,7 +62,8 @@ product-leadership/
 │   └── ai-replies/                        ← both models' replies, word for word
 ├── 02-roadmap/
 │   ├── outcome-roadmap.md                 ← M2: trade-off memo + outcome roadmap   ★ Deliverable 2
-│   └── NOTES.md                           ← M2 ideas, takeaways and the scored backlog
+│   ├── NOTES.md                           ← M2 ideas, takeaways and the scored backlog
+│   └── ai-replies/                        ← both models' replies, and the roadmap visual for Module 6
 ├── 03-team-charter/
 │   └── team-charter.md                    ← M3: What We Own + How We Decide         ★ Deliverable 3
 ├── 04-stakeholder-message/
