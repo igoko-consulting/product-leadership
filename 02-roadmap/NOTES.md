@@ -1,50 +1,69 @@
 # Module 2 notes: Turn Your Strategy into an Outcome Roadmap
 
-Sources: Module 2 slides and Lab Guide. Output: [outcome-roadmap.md](outcome-roadmap.md).
+Session 2, 16 Nov 2026. Sources: Module 2 slides and Lab Guide. Builds on: [Module 1's strategy and OKRs](../01-strategy/strategy-and-okrs.md). Output: [outcome-roadmap.md](outcome-roadmap.md).
 
-## The Fable backlog
+## Rocks, pebbles and sand
 
-The Lab Guide's 14 items, word for word in its order, with who asked for each. Its spelling is kept, since rocks and hard nos go into prompts as written.
-
-| # | Item | Asked by |
+| | What it is | Typical work |
 |---|---|---|
-| 1 | Redesign the onboarding flow based on 40% drop-off data | Product analytics |
-| 2 | Add a daily streak feature to drive habit formation | Growth team |
-| 3 | Build a social layer: share your progress with friends | User research |
-| 4 | Fix the notification system (wrong times, timezone bug) | Engineering |
-| 5 | Launch a premium tier with therapist-matching | CEO |
-| 6 | Add AI-generated daily check-in prompts personalized to user history | Product |
-| 7 | Localize the app into Spanish and Portuguese | Sales (LATAM) |
-| 8 | Build a web version (frequently requested in reviews) | Community |
-| 9 | Create a "crisis mode" flow for acute anxiety moments | Clinical advisor |
-| 10 | Close the WCAG 2.1 accessibility compliance gap flagged in an audit | Legal |
-| 11 | Add Apple Watch integration | 3 partnership requests |
-| 12 | Build a content library: guided meditations, articles, audio | Content team |
-| 13 | Introduce "Fable for Teams", a B2B workplace wellbeing offer | Business development |
-| 14 | Reduce app load time from 4.2s to under 2s on 4G | Engineering |
+| Rocks | Strategic bets that move the north star; if they don't ship, the strategy fails | New core capability, platform foundation, architecture bet |
+| Pebbles | Customer-requested improvements and delight; they build trust and fill gaps | Key feature request, onboarding improvement, integration |
+| Sand | Maintenance, tech debt and polish; necessary, but it fills every gap if allowed | Bug fixes, tech debt, UI polish, performance |
+
+- **Put the rocks in first:** most teams fill sprints with sand and wonder why the rocks never ship. Stripe's rock was API reliability and docs, Notion's the block editor, Linear's speed. Missed: the categories describe the kind of work, not its role. Performance is sand for most products and was Linear's rock. The test is whether the strategy fails without it, which is why two of Fable's rocks are fixes.
+
+## Choosing a prioritisation framework
+
+| Framework | Use it when | How it scores |
+|---|---|---|
+| Impact vs. Effort | A first sort of a whole backlog | Four boxes: Do Now, Plan Carefully, Fill Gaps, Avoid |
+| RICE | Impact vs. Effort leaves too many items in one box | (Reach × Impact × Confidence) ÷ Effort, confidence 50–100% |
+| WSJF | Waiting has a cost | (Time criticality + Value + Risk reduction) ÷ Job size |
+| Weighted scorecard | Several teams must agree | Agreed criteria and weights first, then every item scored the same way |
+
+- **Impact vs. Effort with a correction:** score 1 to 5, then double effort and halve impact, because teams overrate one and underrate the other. Missed: a uniform correction doesn't change the ranking, only which items cross into Do Now. Its real use is stopping an overfull Do Now box.
+- **RICE adds reach and confidence:** Missed: confidence is the easiest input to game. Tie it to the type of evidence (data, research, opinion) rather than to how sure the team feels.
+- **WSJF prices delay:** Missed: Fable's WCAG gap is the WSJF case. Legal risk grows while it waits, so it ranks higher there than on Impact vs. Effort, which is why it gets a date outside the rocks.
+- **A weighted scorecard settles cross-team arguments:** Missed: the weights are the strategy in disguise. Agree them before any item is scored, or each team tunes the weights to favour its own items.
+- **The other tools:** MoSCoW for sprint and MVP scoping (Must Have overloads when strategy is unclear); Now/Next/Later for stakeholder communication (a wish list if not tied to OKRs); Feature ROI for financial cases (needs revenue estimates early products lack); Buy a Feature for alignment workshops (customers pick comfort over strategy); affinity grouping for discovery (too slow for single-feature calls).
+- **Pick the framework for the decision:** Missed: all of them rank a list someone else wrote, and none asks whether the list holds the strategy's rock. Fable's backlog has no steady plan, only a check-in item that has to be reframed to fit. Checking the backlog against the strategy comes before scoring it.
+
+## Building a roadmap that keeps trust
+
+| View | For | Shows |
+|---|---|---|
+| Outcome-based | CPO or board | The bets and outcomes committed to, not features |
+| Now/Next/Later | The team and stakeholders | Priority and confidence, without dates |
+| Timeline | Engineering and operations | Release order, dependencies and dates |
+| Opportunity-based | Product and design | Customer problems to explore, not set solutions |
+| OKR-linked | Anyone checking against the strategy | Which OKR each piece of work moves |
+
+- **One roadmap, several views:** each audience asks a different question: bets for the board, priorities for the team, dates for engineering. Missed: these are views of one source, not five documents. Keeping one source is what prevents the hidden and stale failures below.
+- **Now/Next/Later sorts by certainty, not date:** Now is committed (up to three, each "We bet [action] will [outcome] for [who]", linked to an OKR); Next is planned (up to five, each with why it comes after Now); Later is possible (matters, but has no people or budget yet). Missed: a committed Now bet with no stop rule stays in Now forever. Module 5's kill criterion is that rule.
+- **Four ways a roadmap loses trust:** hidden (fix: one version anyone can find), stale (fix: one owner, reviewed every sprint), over-promised dates (fix: a date only when you'd stake your credibility on it), feature factory (fix: every item a bet linked to an OKR before it gets people or budget). Missed: reviewing every sprint can churn a board-facing view as badly as staleness. The team view moves each sprint; the board view moves each quarter.
 
 ## Labs
 
 ### Lab 1 · Backlog audit
 
-Each item scored 1 to 5 for impact on the Module 1 objective ("Make Fable the app people keep after the hard stretch passes") and for effort, after the lab's correction of doubling effort and halving impact. High is 3 or more.
+The Lab Guide's 14 Fable items, word for word with who asked, scored 1 to 5 for impact on the Module 1 objective ("Make Fable the app people keep after the hard stretch passes") and for effort, after the lab's correction. High is 3 or more. The item text keeps the course's spelling, since rocks and hard nos go into prompts as written.
 
-| # | Item | Impact | Effort | Quadrant | Why |
-|---|---|---|---|---|---|
-| 4 | Fix the notification system | 4 | 1 | Do Now | The nightly wind-down depends on reminders arriving at the right time |
-| 14 | Reduce app load time | 3 | 2 | Do Now | A slow load at bedtime is a reason to give up |
-| 6 | AI daily check-in prompts from user history | 4 | 3 | Plan Carefully | The core of the steady plan, if the user starts it |
-| 11 | Apple Watch integration | 3 | 4 | Plan Carefully | A wind-down without the phone, but only Watch owners benefit |
-| 2 | Daily streak | 2 | 1 | Fill Gaps | Rewards daily opens, against KR3's "without feeling dependent" |
-| 10 | WCAG 2.1 gap | 2 | 2 | Fill Gaps | Legal flagged it: a commitment with a date, not a rock |
-| 1 | Onboarding redesign | 2 | 3 | Avoid | Helps new users, not post-acute ones |
-| 3 | Social layer | 2 | 4 | Avoid | The Module 1 hard no |
-| 5 | Therapist-matching tier | 2 | 5 | Avoid | Crosses the clinical line and serves the acute phase |
-| 7 | Localize ES/PT | 1 | 3 | Avoid | New markets |
-| 8 | Web version | 1 | 4 | Avoid | The wind-down happens on a phone in bed |
-| 9 | Crisis mode | 1 | 3 | Avoid | Acute phase and clinical; the signposting partner covers it |
-| 12 | Content library | 1 | 4 | Avoid | Module 1 chose to re-sequence the library, not add to it |
-| 13 | Fable for Teams | 1 | 5 | Avoid | Employers are outside Where to play |
+| # | Item | Asked by | Impact | Effort | Quadrant | Why |
+|---|---|---|---|---|---|---|
+| 4 | Fix the notification system (wrong times, timezone bug) | Engineering | 4 | 1 | Do Now | The nightly wind-down depends on reminders arriving at the right time |
+| 14 | Reduce app load time from 4.2s to under 2s on 4G | Engineering | 3 | 2 | Do Now | A slow load at bedtime is a reason to give up |
+| 6 | Add AI-generated daily check-in prompts personalized to user history | Product | 4 | 3 | Plan Carefully | The core of the steady plan, if the user starts it |
+| 11 | Add Apple Watch integration | 3 partnership requests | 3 | 4 | Plan Carefully | A wind-down without the phone, but only Watch owners benefit |
+| 2 | Add a daily streak feature to drive habit formation | Growth team | 2 | 1 | Fill Gaps | Rewards daily opens, against KR3's "without feeling dependent" |
+| 10 | Close the WCAG 2.1 accessibility compliance gap flagged in an audit | Legal | 2 | 2 | Fill Gaps | A legal commitment with a date, not a rock |
+| 1 | Redesign the onboarding flow based on 40% drop-off data | Product analytics | 2 | 3 | Avoid | Helps new users, not post-acute ones |
+| 3 | Build a social layer: share your progress with friends | User research | 2 | 4 | Avoid | The Module 1 hard no |
+| 5 | Launch a premium tier with therapist-matching | CEO | 2 | 5 | Avoid | Crosses the clinical line and serves the acute phase |
+| 7 | Localize the app into Spanish and Portuguese | Sales (LATAM) | 1 | 3 | Avoid | New markets |
+| 8 | Build a web version (frequently requested in reviews) | Community | 1 | 4 | Avoid | The wind-down happens on a phone in bed |
+| 9 | Create a "crisis mode" flow for acute anxiety moments | Clinical advisor | 1 | 3 | Avoid | Acute phase and clinical; the signposting partner covers it |
+| 12 | Build a content library: guided meditations, articles, audio | Content team | 1 | 4 | Avoid | Module 1 chose to re-sequence the library, not add to it |
+| 13 | Introduce "Fable for Teams", a B2B workplace wellbeing offer | Business development | 1 | 5 | Avoid | Employers are outside Where to play |
 
 - **Rocks: #6, #4, #14.** #6 is the strategy's core capability, built as the self-check and steady plan the user starts. #4 and #14 are what the nightly habit breaks on: reminders at the wrong time and a slow load at bedtime. Missed: the course's jar slide calls bug fixes and performance "sand", so two of the three rocks are maintenance by its own definition. The defence is that the nightly habit is the strategy; Linear made speed its rock for the same reason. Apple Watch (#11) was the bolder third rock, turned down because it costs more and reaches fewer users.
 - **Hard nos: #5, #3, #2.** One from each camp: the CEO's therapist-matching tier (the one that's hard to give up), user research's social layer (the Module 1 hard no), and the Growth team's daily streak (against KR3). Missed: Growth loses twice, which sets up Module 3's tension with the Growth lead but risks half-hearted execution. Giving the Growth team ownership of notifications and lifecycle messaging (Rock 2) would put them inside the bet; to settle in the roadmap's owning-team column.
