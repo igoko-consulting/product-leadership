@@ -263,3 +263,17 @@ Joint calls: ...
 Who decides scope: ...
 How cross-team conflicts escalate: ...
 ```
+
+**How the two replies compared** · both replies, word for word: [1-charter.md](03-team-charter/ai-replies/1-charter.md)
+
+| Point | GPT-6 | Claude |
+|---|---|---|
+| Who "we" are | A separate initiative team beside PM 1, PM 2 and PM 3, owning the post-acute experience | The product lead's team of 14: PM 2 accountable for KR1–KR3, PM 1 days 0–60, PM 3's AI layer a shared service |
+| The PM 2 and PM 3 overlap | Left open: "we" own the post-acute experience while PM 2 owns "the broader retention lifecycle" | Settled: what PM 3's layer shows a user after day 60 is PM 2's call |
+| Growth | Owns acquisition, lifecycle marketing and growth experiments | Owns acquisition and all lifecycle messaging except the bedtime reminder; any message to a deep user in the three hours before bedtime is a joint call |
+| Who decides scope | The initiative lead within the strategy; each PM within their domain | The PM who owns the metric a feature moves; Clinical can veto; engineering decides how and when, not whether; only the product lead moves work between horizons or overrides a kill criterion |
+| Escalation | Two days to resolve, then the VP Product decides within two more | Two days to raise a one-page note, three to settle, then the product lead decides in two by one test: protect day-180 retention without crossing the clinical line |
+
+- **Claude answered the question the tension asks:** who decides when PM 2's retention work and PM 3's AI layer overlap. GPT-6's split between "the post-acute experience" and "the broader retention lifecycle" would start the arguments it is meant to stop.
+- **Claude drifted from earlier modules in two places:** it gives the bedtime reminder to the team when Module 2 made Growth a co-owner, and it lets an AI check-in that Fable starts go live after v1, which Module 1 ruled out.
+- **GPT-6 saw one thing Claude missed:** the product lead can't overrule a peer team, so a conflict with Growth needs someone above both to decide.
