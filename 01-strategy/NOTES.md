@@ -2,6 +2,14 @@
 
 Session 1, 16 Nov 2026. Sources: Module 1 slides and Lab Guide. Output: [strategy-and-okrs.md](strategy-and-okrs.md).
 
+## The scenario: Fable Growth
+
+- **The company:** a mental-wellness app for adults aged 25 to 45, built on guided meditations, sleep stories and breathing exercises. It peaked at 4.2M active users, known as the app that helped people through a hard stretch.
+- **The problem:** growth has stalled because the product solves its first job. Deep users, usually in a high-stress period, recover within 90 to 120 days and drift away, with no next step. The users most likely to pay are the most likely to leave.
+- **The market:** Headspace and Calm own awareness; AI mental-health apps target the same users with more personalisation.
+- **The open call:** budget for one major initiative, and three camps: clinical wants CBT programmes, growth wants a community and social layer, content wants more content. Who the product is for now is unresolved.
+- **Constraints:** no repositioning as clinical; meditation and sleep content stays the foundation; the real competitor for the post-acute user is deciding they don't need Fable; a team of 14 across product, design, engineering, content and clinical advisory; the existing freemium and premium model.
+
 ## From PM to product leader
 
 - **Four shifts:** bets over features (where to compete, not what to ship); direction over execution (setting the plan, not running someone else's); insights over analysis (choosing which questions are worth answering); scope over ownership (deciding across teams, not within one area). Missed: the shifts are less clean in practice. A group PM still executes the CEO's plan and still ships; what changes is being accountable for the trade-offs between teams, and for the people making them, which Module 3 picks up.
