@@ -2,7 +2,7 @@
 
 > My final project for Product School's **Product Leadership** certification. One scenario, **Fable Growth** (B2C mental wellness), taken from a board-ready product strategy to a complete business case across six in-class labs.
 
-**How to read this repo:** each module folder holds its deliverable and a `NOTES.md` with the module's ideas and my takeaways. `PROMPTS.md` keeps every lab prompt, run word for word in GPT-6 and Claude, and how the replies differed; each module's `ai-replies/` folder holds both models' replies as evidence.
+**How to read this repo:** each module folder holds its deliverable and a `NOTES.md` with the module's ideas and my takeaways. [PROMPTS.md](PROMPTS.md) keeps every lab prompt, run word for word in GPT-6 and Claude, and how the replies differed; each module's `ai-replies/` folder holds both models' replies as evidence.
 
 ---
 
@@ -33,6 +33,7 @@ ___
 ```
 product-leadership/
 ├── README.md                              ← this dashboard
+├── PROMPTS.md                             ← every lab prompt, and how GPT-6 and Claude replied
 ├── 01-strategy/
 │   ├── strategy-and-okrs.md               ← M1: Playing to Win + hard no + OKRs + AI pressure-test   ★ Deliverable 1
 │   └── NOTES.md                           ← M1 class notes and takeaways
