@@ -51,3 +51,18 @@ Please do the following:
 ```text
 Now be harsher. What would a competitor’s strategy team say about this plan?
 ```
+
+**How the two replies compared** · both replies, word for word: [2-harsher-follow-up.md](01-strategy/ai-replies/2-harsher-follow-up.md)
+
+| Point | GPT-6 | Claude |
+|---|---|---|
+| Verdict | Not worried yet: plausible but replicable, for an uncertain audience | A well-written retreat: target the day-90 users and wait for the board to lose patience |
+| The moat | Consumption history a competitor learns within 30 days | 90 days of play logs, rebuilt with a three-question onboarding; GDPR portability lets users take it |
+| The segment | Defined by declining interest; people who want to maintain wellbeing may be a different segment | A cohort that leaves by design: slowing a leak, not growing |
+| An everyday reason to open | Nothing makes Fable worth opening on an ordinary Tuesday | Noticing a dip is occasional; competitors own sleep as a nightly habit |
+| Check-ins and KRs | Intrusive, with false positives; the KRs measure use, not value | Notification creep: KR2 and KR3 reward nudging; legal will water dip detection down to a mood tracker |
+| What would build a moat | Change the question: an everyday role people choose even when nothing is wrong | Measurable relapse prevention, and people to stay for (buddies, shared streaks) |
+
+- **They agreed on the gap that matters:** nothing gives a recovered user a reason to open Fable on an ordinary day, and "we saw what helped" is easier to rebuild than I claimed.
+- **Claude was more useful on the fix:** sleep as the nightly habit Fable already has the content for, outcome evidence as the moat that takes years to copy, and social ties with people users already know, which tests the hard no.
+- **Both read the lack of acquisition as retreat:** the brief points the one initiative at keeping high-value users past day 90, so that criticism is aimed at the brief as much as the plan.
