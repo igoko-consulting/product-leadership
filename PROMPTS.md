@@ -126,3 +126,18 @@ Later: the remaining strategic items that matter but don't have people or budget
 Give me the roadmap as one markdown table with these columns: | Horizon | Outcome / bet | Owning team(s) | Success signal |
 Use one row per horizon: "Now (0 to 3 mo)", "Next (3 to 6 mo)" and "Later (6 to 12 mo)". If a horizon has more than one bet, put them in the same cell, separated by semicolons.
 ```
+
+**How the two replies compared** · both replies, word for word: [1-roadmap.md](02-roadmap/ai-replies/1-roadmap.md)
+
+| Point | GPT-6 | Claude |
+|---|---|---|
+| Now | A personalised nightly wind-down (KR2), user control over reminders (KR2), effortless access (KR1) | A fake-door test of the steady plan with churned deep users (KR3, KR1), bedtime reminders (KR2), a sub-2s wind-down (KR2) |
+| Rock 1 | Self-checks moved to Next; the wind-down plan built in Now with no demand test | Turned into the demand test in Now; the plan and self-checks wait in Next until it passes |
+| Fake door and regulatory opinion | Called validation gates, not outcomes, and left off the table | Bet 1's success signal, with a stop rule if it fails |
+| Success signals | Restates the KR targets; load time as a signal, which is an output | Specific thresholds (15% click-through, 5% rejoin, 98% of reminders on time), labelled as placeholders |
+| Next | Self-checks, adaptive plans, progress, structured journeys, an explicit day 90–120 transition | Steady plan v1, self-checks, consent model, signposting partner, then annual-plan users |
+| Later | Social accountability, everyday wellbeing for new users, partnerships, long-term evidence | Relapse evidence, a fast route back, a gated buddy feature, free-to-premium, employers or insurers |
+
+- **Claude stayed closer to Module 1:** it kept the demand test in Now with a stop rule, so nothing is built before the biggest assumption is tested. GPT-6's Now builds first, which is the gap both models criticised in Module 1.
+- **GPT-6 drifted in two places:** structured non-clinical journeys in Next read like the CBT programmes Module 1 turned down, and Later's everyday wellbeing for new users contradicts Where to play.
+- **Both flagged Rock 1's wording:** GPT-6 warned against making AI check-ins the centrepiece; Claude said the rock's name describes the monitoring the strategy rules out. Claude also called Rocks 2 and 3 hygiene and supplied the defence.
