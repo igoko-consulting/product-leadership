@@ -350,3 +350,46 @@ Then suggest one change that would make it clearer. Be direct.
 - **Both landed on the same opening:** "plateaus" with no number or owner, so Growth could argue the first flat month counts.
 - **Claude found the deeper one:** a capacity reason can be answered with capacity, while Module 1's other reason, risk to people at their most vulnerable, can't.
 - **Neither found a new maybe in the main no,** so the fixes are confined to the exception, the reason and two details, then the message stops changing.
+
+---
+
+## Module 5 · Business case
+
+### 1. CFO check of Case A · our addition, not a Lab Guide step
+
+The Lab Guide's CFO stress-test prompt, written for my own business case, applied to the funding exercise's Case A to test the don't-fund verdict independently.
+
+```text
+You are a Chief Financial Officer reviewing a product business case. I am going to share a business case with you. Your job is to stress-test it using exactly four checks, no more. For each check, give me one specific finding and one specific question I should be able to answer before I present this case.
+The four checks are:
+1. Load-bearing assumption: which single assumption, if 20 to 30% off, most changes whether this case holds? Name it and tell me what breaks.
+2. Per-customer figure: what churn does my per-customer figure assume? If churn is 10 points higher, does it still hold, and does the LTV:CAC ratio stay above 3:1? Estimate anything I left out and say so.
+3. Volume target: estimate what it would cost to reach my volume target by the date I gave, and how long payback would take. If acquisition cost runs 20% higher, would the business still wait that long?
+4. Kill criterion: score my kill criterion. Does it name a specific metric, a specific number, a specific timeline and a specific financial consequence? If any element is missing, rewrite it so it is complete.
+After the four checks, give me one sentence: "I would / would not approve this case because ___." Then tell me the one thing I should fix before presenting.
+Here is my business case:
+Rock: Team & Enterprise Tier
+1. The strategic bet: Fable will launch a team tier at $12/seat/month targeting SMB wellness leads who have organically adopted Fable individually. Individual users who complete three AI check-ins per week are the acquisition channel into team plans. The mechanism: a productivity and wellbeing report, auto-generated at week four, is sent to the individual user with a prompt to share it with their manager.
+2. The assumptions, riskiest first:
+1. Individual-to-team conversion holds at 4% of weekly-active individual users.
+2. Average team size at conversion is 6 seats.
+3. Annual churn for team accounts holds at 15%.
+4. CAC per individual user is modelled at $38, based on current paid social performance.
+3. The expected return. Per customer: Each converting user represents $864 in first-year team revenue ($12 × 6 seats × 12 months). Volume target: At 4% conversion across 3,000 weekly-active individuals, 120 converting users per quarter, $103,680 in net new ARR in Q1 alone. Payback period at current CAC: 4.7 months.
+4. The kill criterion: If individual-to-team conversion has not reached 3% by end of Q2, the go-to-market approach will be reassessed before Q3 headcount is committed.
+```
+
+**How the two replies compared** · both replies, word for word: [1-cfo-check-case-a.md](05-business-case/ai-replies/1-cfo-check-case-a.md)
+
+| Point | GPT-6 | Claude |
+|---|---|---|
+| Verdict | Would not approve: the 4.7-month payback is unsupported | Would not approve: payback understated about three times, economics need optimistic churn |
+| Load-bearing assumption | 4% conversion; users may not have buying authority or want a manager to see their wellbeing | 4% conversion, since cost per team is $38 ÷ conversion |
+| Payback | $950 per team: 13.2 months on revenue, 16.5 on an assumed 80% margin | The same, and about 40 months once an estimated $160k build is included |
+| LTV:CAC with churn 10 points higher | 2.9:1 at an assumed 80% margin | 2.9:1 at 4% conversion and 2.2:1 at 3%; needs about 4.1% conversion to hold 3:1 |
+| Kill criterion | 3 of 4: no financial consequence | Metric only partial, and no financial consequence |
+| The one fix | Rebuild the funnel from acquisition to retention | Fix the mechanism, not the maths: a wellbeing report sent to managers |
+
+- **They agreed on every number that matters:** $950 per team, a payback of 13 months or more, LTV:CAC below 3:1 with higher churn, and a kill criterion with no consequence. Both say the 4.7 months can't be reproduced.
+- **Claude went further:** it costed the build, showed the Q1 date isn't credible, and named the trust problem as the real fix.
+- **Claude's chat wasn't clean again:** it quoted "your own roadmap" and what "you just told Growth", which weren't in the prompt. GPT-6's chat was clean and reached the same verdict on the same numbers, so the independent check holds without it.
