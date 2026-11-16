@@ -48,7 +48,7 @@ Fable bets its one initiative on the people it helped through a hard stretch: a 
 | **M4** Stakeholder message | A hard no to the Growth lead: no community and social layer or progress sharing. What stays open is the bedtime reminder Growth co-owns; the only social work is a buddy test led by PM 2 and co-designed with Growth, run only if day-180 retention plateaus; and Growth gets a referral invite of its own that shares nothing about anyone's use. | M5 builds the business case for one Module 2 rock. |
 | **M5** Business case | ☐ | |
 
-**Open items carried forward:** for M5, the monthly versus annual plan mix, an LTV case against the cost of 14 people for a year, and real baselines for the roadmap's placeholder thresholds; optional, the charter's How We Work part.
+**Open items carried forward:** for M5, a first line that is the ask (fund the concierge test, with its stop rule), as Module 4's bottom-line-up-front rule requires; the monthly versus annual plan mix, an LTV case against the cost of 14 people for a year, and real baselines for the roadmap's placeholder thresholds; still unsaid, the Module 2 hard no to the CEO's therapist-matching tier; optional, the charter's How We Work part.
 
 ## Deliverables at a glance
 
