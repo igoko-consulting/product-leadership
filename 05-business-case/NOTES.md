@@ -2,6 +2,46 @@
 
 Session 5, 16 Nov 2026. Sources: Module 5 slides and Lab Guide. Builds on: [Module 2's rocks](../02-roadmap/outcome-roadmap.md). Output: [business-case.md](business-case.md).
 
+## Why the stakes change: speaking finance
+
+| P&L line | What moves it |
+|---|---|
+| Revenue | Pricing, retention, churn, tier changes and new ways to charge |
+| COGS | The variable cost of delivering the product: infrastructure, support, build-or-buy |
+| Gross margin | Revenue minus COGS: does each sale make money before team costs? |
+| Operating expenses | Headcount and team overhead; the line that moves when you ask for people |
+| Operating income | What's left after every cost; where a strategic bet is judged |
+
+- **AARRR tells you where users drop off, not whether the work is worth funding:** acquisition, activation, retention, revenue and referral are product signals; finance reads the P&L. Missed: Fable's strategy works almost entirely on retention, and Module 4 handed referral to Growth, so the case has one AARRR stage to translate rather than five.
+- **Bridge the result to money and timing:** "this will improve retention" is a hypothesis to finance; "a 5-point lift adds this much ARR per cohort, because…" is a case, and "you'll see the first signal by week 6 and payback by month N" answers when. Missed: the steady plan's first signal (nightly use in the concierge test) arrives in weeks, but its money arrives in year two, which is why the cash curve had to be in the case.
+
+## The financial toolkit
+
+- **LTV is the ceiling, CAC is the floor:** LTV is what a customer brings in over the relationship, and retention is its riskiest input because small changes compound; CAC is the fully loaded cost to win one, usually understated because it leaves out sales overhead, onboarding and support. Missed: a retention bet has no CAC, so the programme cost per retained user stood in for it in both CFO reads. Whether the team of 14 counts as new spending or as a team Fable pays for anyway decides how good that ratio looks.
+
+| LTV:CAC | Reading |
+|---|---|
+| Below 1:1 | Burning runway: every customer loses money |
+| 3:1 | Sustainable: the usual healthy target |
+| Above 5:1 | Room to accelerate spending on growth |
+
+- **Payback and contribution margin:** payback is how long until the investment in a customer pays for itself; the longer it runs, the more committed the business is before it knows. Contribution margin is what each customer earns before fixed costs. Missed: Fable's case clears 3:1 only at its assumed churn, and its payback is about 22 months, so its strongest financial argument is the kill line, not the ratio.
+- **Four questions before approving a model you didn't build:** which assumption, 30% off, most changes the outcome; what the retention curve looks like, and LTV with churn 10 points higher; payback with acquisition costs 20% higher; and what the kill criteria are. Missed: these four are the Lab Guide's CFO prompt. Running the prompt on Case A and on my own case was the same discipline applied twice, and it caught the same kind of error both times: a return presented in the wrong time frame.
+- **Trace a decision forward and back:** forward from a product change to the line it moves (reduce onboarding friction, retention improves, LTV extends, payback shortens); backward from a line that moved to the product cause (NRR below 100%: which behaviour changed?). Missed: AI personalisation adds inference cost to COGS every month it runs, so "rules-based first, AI only once v1 lifts retention" protects gross margin as well as build risk.
+
+## Building and defending the bet
+
+- **Four costs a model leaves out:** the ceiling (a bet can pay for itself and still be too small to matter), people beyond engineering (implementation, customer success and support absorb the work), opportunity cost (every team on this bet is off another, usually someone's goal) and time to value (how long the business waits without knowing). Missed: for Fable, the concierge test's hand-built plans land on the content team, the opportunity cost is the onboarding redesign and the Apple Watch work, and the time to value is month 22, so all four belong in the room, not only the engineering estimate.
+
+| Kill criterion | Metric | Threshold | Deadline | Consequence |
+|---|---|---|---|---|
+| "We will reassess if the numbers are not where we need them by Q3" | ✕ | ✕ | ✓ | ✕ |
+| "If 90-day retention hasn't reached 28% by end of Q3, we will discuss next steps" | ✓ | ✓ | ✓ | ✕ |
+| "…we stop funding the initiative and reallocate the Q4 headcount before it is committed" | ✓ | ✓ | ✓ | ✓ |
+
+- **Agree the number that ends the bet before the work starts:** a vague criterion leaves the decision open just when the team is most invested. Missed: the course's own Cursor example ends with "the go-to-market approach changes before Q3 headcount is committed", which by the slide's own test has no consequence, and Case A copied that shape.
+- **The four parts of a one-page case:** the strategic bet (how the product decision leads to a financial result, not a strategy summary), the assumptions ranked by how much each would change the conclusion, the expected return as a per-customer figure for finance and a volume target for the board, and the kill criterion. Missed: the template has no line for the ask, so the bottom-line-up-front rule from Module 4 has to ride in the Rock line.
+
 ## Labs
 
 ### Funding decision (practice) · Case A: Fable team tier
@@ -29,3 +69,4 @@ The Lab Guide's case: a $12-a-seat team tier for small businesses, fed by indivi
 - **The kill criterion:** the same three conditions as Now Bet 1's stop rule, so the roadmap and the case can't disagree, with the unspent budget for Next and Later going back to the board. About $560k, one quarter's cost, is what's at risk. Missed: three conditions are harder to enforce than one; paid return alone was the simpler alternative.
 - **CFO stress-test, in both models:** run in new memory-off chats ([replies](ai-replies/2-cfo-stress-test.md)). Both would fund the one-quarter concierge test and not yet the build, which is exactly the case's ask. Both said "$7.5M a year" was lifetime margin presented as annual cash, that "$12 after app-store fees" was ambiguous, and that churn 10 points higher drops the return below 3:1. Claude caught that the kill criterion had left out Now Bet 1's 30% opt-in, and an arithmetic slip ($7.2M, not $7.5M). Missed: both models' fixes rested on their own cash models, which disagreed (month 27 against my month 22), so the curve in the case is my own, with its assumptions stated.
 - **What changed:** the ask names its cost (about $0.6M); the per-customer figure states price, net and churn; the return is lifetime margin per year of cohorts plus a cash curve (about $0.3M in year one, break-even around month 22, month 25 at worst); the kill criterion gained the 30% opt-in, sample sizes, a dollar figure returned to the board, a new-business-case rule and a build-stage line; and assumption 2 measures the concierge group against a matched holdout. The roadmap's Next signal and Bet 1 signal changed to match. Missed: the 2.6x at higher churn stays in the case on purpose, because the answer is Fable's own churn data, not a better-looking number.
+- **The debrief question, what became clearer once it had a number:** the value of the kill line is in money not spent. The test puts about $0.6M at risk to protect about $1.7M, which is a stronger argument to a board than a 3.2x return that rests on estimated churn. Missed: that argument only holds if the stop rule is enforced, which is why the charter makes overriding it the product lead's call alone.
