@@ -46,7 +46,7 @@ Fable bets its one initiative on the people it helped through a hard stretch: a 
 | **M2** Roadmap | Rocks: the steady plan and self-check (backlog #6, KR3), the notification fix (#4, KR2), load time (#14, KR2). Hard nos: #5 therapist-matching tier, #3 social layer, #2 daily streak. Now tests demand first with a concierge test (plans hand-built for a small consenting group) and a stop rule; the Growth team co-owns the bedtime reminders; Next builds the steady plan only if the test passes. | M3's charter settles the tension with the Growth team; M4 writes a hard no to the Growth lead; M5 builds the business case for one rock. |
 | **M3** Team charter | PM 2 owns the post-acute experience and KR1–KR3; PM 1 owns days 0 to 60; PM 3's AI layer is a shared platform whose output after day 60 is PM 2's call; the bedtime reminder is shared with Growth; Fable never starts a check-in. Conflicts go to a one-page note, then the Fable product lead, or the CPO when Growth is a party. | M4 writes a hard no to the Growth lead, the other side of this tension. |
 | **M4** Stakeholder message | A hard no to the Growth lead: no community and social layer or progress sharing. What stays open is the bedtime reminder Growth co-owns; the only social work is a buddy test led by PM 2 and co-designed with Growth, run only if day-180 retention plateaus; and Growth gets a referral invite of its own that shares nothing about anyone's use. | M5 builds the business case for one Module 2 rock. |
-| **M5** Business case | ☐ | |
+| **M5** Business case | Rock 1, the steady plan and self-check: fund a one-quarter concierge test and the build only if it passes. About $150 of margin per extra user kept to day 180; 3.4x return at the planned KR1 lift, break-even at 6 points; the kill criterion matches Now Bet 1's stop rule and returns unspent budget to the board. | M6 pulls all five deliverables into the final presentation. |
 
 **Open items carried forward:** for M5, a first line that is the ask (fund the concierge test, with its stop rule), as Module 4's bottom-line-up-front rule requires; the monthly versus annual plan mix, an LTV case against the cost of 14 people for a year, and real baselines for the roadmap's placeholder thresholds; still unsaid, the Module 2 hard no to the CEO's therapist-matching tier; optional, the charter's How We Work part.
 
@@ -58,7 +58,7 @@ Fable bets its one initiative on the people it helped through a hard stretch: a 
 | 2 | **Outcome Roadmap & Trade-off Memo** | M2 | ✅ | [`02-roadmap/outcome-roadmap.md`](02-roadmap/outcome-roadmap.md) |
 | 3 | **Team Charter** (What We Own + How We Decide) | M3 | ✅ | [`03-team-charter/team-charter.md`](03-team-charter/team-charter.md) |
 | 4 | **Stakeholder Message** (a hard no to my Module 3 stakeholder) | M4 | ✅ | [`04-stakeholder-message/stakeholder-message.md`](04-stakeholder-message/stakeholder-message.md) |
-| 5 | **Business Case** (bet, assumptions, return + kill criterion) | M5 | ☐ | [`05-business-case/business-case.md`](05-business-case/business-case.md) |
+| 5 | **Business Case** (bet, assumptions, return + kill criterion) | M5 | ◐ written, CFO check to run | [`05-business-case/business-case.md`](05-business-case/business-case.md) |
 | 6 | **Final Presentation** (the five deliverables + a reflection on the course) | M6 | ☐ | `final-presentation.html`, downloaded from the Final Project Deliverables Builder |
 
 ## How to submit

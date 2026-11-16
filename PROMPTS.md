@@ -393,3 +393,24 @@ Rock: Team & Enterprise Tier
 - **They agreed on every number that matters:** $950 per team, a payback of 13 months or more, LTV:CAC below 3:1 with higher churn, and a kill criterion with no consequence. Both say the 4.7 months can't be reproduced.
 - **Claude went further:** it costed the build, showed the Q1 date isn't credible, and named the trust problem as the real fix.
 - **Claude's chat wasn't clean again:** it quoted "your own roadmap" and what "you just told Growth", which weren't in the prompt. GPT-6's chat was clean and reached the same verdict on the same numbers, so the independent check holds without it.
+
+### 2. CFO stress-test of my business case · new memory-off chats in both models
+
+```text
+You are a Chief Financial Officer reviewing a product business case. I am going to share a business case with you. Your job is to stress-test it using exactly four checks, no more. For each check, give me one specific finding and one specific question I should be able to answer before I present this case.
+The four checks are:
+1. Load-bearing assumption: which single assumption, if 20 to 30% off, most changes whether this case holds? Name it and tell me what breaks.
+2. Per-customer figure: what churn does my per-customer figure assume? If churn is 10 points higher, does it still hold, and does the LTV:CAC ratio stay above 3:1? Estimate anything I left out and say so.
+3. Volume target: estimate what it would cost to reach my volume target by the date I gave, and how long payback would take. If acquisition cost runs 20% higher, would the business still wait that long?
+4. Kill criterion: score my kill criterion. Does it name a specific metric, a specific number, a specific timeline and a specific financial consequence? If any element is missing, rewrite it so it is complete.
+After the four checks, give me one sentence: "I would / would not approve this case because ___." Then tell me the one thing I should fix before presenting.
+Here is my business case:
+Rock: The steady plan and self-check (Rock 1, from backlog #6). The ask: fund a one-quarter concierge test, and the build only if it passes.
+1. The strategic bet: Recovered premium users who still use sleep content keep a nightly wind-down built from what helped them, so more of them are still paying at day 180. Each one kept is about $150 of margin that Fable now loses when the hard stretch ends.
+2. The assumptions, riskiest first:
+1. People who have recovered want an ongoing plan and will keep paying for it (the concierge test's opt-in and paid return).
+2. A rules-based steady plan keeps most of the concierge test's lift once it's automated. The hand-built plans set the upper limit.
+3. About 20,000 monthly-plan deep users reach day 90 each month, so a 20-point lift means about 4,000 more paying at day 180 per cohort (est.; checkable in Fable's data now).
+3. The expected return. Per customer: Each extra monthly-plan user still paying at day 180 is worth about $150 of margin over the next 18 months ($12 a month, after app-store fees; est.). Volume target: 4,000 more monthly-plan users still paying at day 180 in each monthly cohort by month 12 (KR1 from 35% to 55%), about $7.5M of margin a year against about $2.2M for the team of 14.
+4. The kill criterion: If fewer than 35% of concierge participants use the wind-down three or more nights a week by week 6, or fewer than 10% of churned participants resume paying, or the regulatory opinion doesn't clear self-checks, by the end of month 3, we stop the steady plan build, keep only the bedtime reminder and load-time fixes, and return the unspent initiative budget for Next and Later to the board.
+```
