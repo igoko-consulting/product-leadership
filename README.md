@@ -27,19 +27,19 @@ Fable bets its one initiative on the people it helped through a hard stretch: a 
 | Module | What I decided | What the next module takes from it |
 |---|---|---|
 | **M1** Strategy & OKRs | Post-acute users who still use sleep content; a steady plan built around a nightly wind-down, fitted by what helped them in the hard stretch; self-checks the user starts, not monitoring; no community layer. KR1 day-180 retention on monthly plans, KR2 wind-down nights, KR3 steady without feeling dependent. | Every M2 rock links to a KR, and the roadmap prompt carries the strategy word for word. |
-| **M2** Roadmap | Rocks: #6 rebuilt as the self-check and steady plan (KR3), #4 notification fix (KR2), #14 load time (KR2). Hard nos: #5 therapist-matching tier, #3 social layer, #2 daily streak. Roadmap: in progress. | M3's charter settles the tension with the Growth team; M4 writes a hard no to the Growth lead; M5 builds the business case for one rock. |
+| **M2** Roadmap | Rocks: the steady plan and self-check (backlog #6, KR3), the notification fix (#4, KR2), load time (#14, KR2). Hard nos: #5 therapist-matching tier, #3 social layer, #2 daily streak. Now tests demand first with a fake door and a stop rule; the Growth team co-owns the bedtime reminders; Next builds the steady plan only if the test passes. | M3's charter settles the tension with the Growth team; M4 writes a hard no to the Growth lead; M5 builds the business case for one rock. |
 | **M3** Team charter | ☐ | |
 | **M4** Stakeholder message | ☐ | |
 | **M5** Business case | ☐ | |
 
-**Open items carried forward:** a fake-door test of the steady plan with churned deep users, and a regulatory opinion on self-checks, both for M2's Now column; whether the Growth team owns Rock 2, for M2's owning-team column; the monthly versus annual plan mix and an LTV case against the cost of 14 people for a year, for M5.
+**Open items carried forward:** the roadmap visual, for the Module 6 builder; for M5, the monthly versus annual plan mix, an LTV case against the cost of 14 people for a year, and real baselines for the roadmap's placeholder thresholds.
 
 ## Deliverables at a glance
 
 | # | Deliverable | Module | Status | File |
 |---|---|---|---|---|
 | 1 | **Product Strategy & OKRs** (Playing to Win + hard no + OKRs + AI pressure-test) | M1 | ✅ | [`01-strategy/strategy-and-okrs.md`](01-strategy/strategy-and-okrs.md) |
-| 2 | **Outcome Roadmap & Trade-off Memo** | M2 | ◐ memo done, roadmap in progress | [`02-roadmap/outcome-roadmap.md`](02-roadmap/outcome-roadmap.md) |
+| 2 | **Outcome Roadmap & Trade-off Memo** | M2 | ✅ | [`02-roadmap/outcome-roadmap.md`](02-roadmap/outcome-roadmap.md) |
 | 3 | **Team Charter** (What We Own + How We Decide) | M3 | ☐ | [`03-team-charter/team-charter.md`](03-team-charter/team-charter.md) |
 | 4 | **Stakeholder Message** (a hard no to my Module 3 stakeholder) | M4 | ☐ | [`04-stakeholder-message/stakeholder-message.md`](04-stakeholder-message/stakeholder-message.md) |
 | 5 | **Business Case** (bet, assumptions, return + kill criterion) | M5 | ☐ | [`05-business-case/business-case.md`](05-business-case/business-case.md) |
