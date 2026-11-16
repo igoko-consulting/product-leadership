@@ -318,3 +318,21 @@ Then suggest one change that would make it clearer. Be direct.
 - **Both found "in this initiative" leaves the door open,** and Claude also caught "while we prove the steady plan", the phrase flagged as the likeliest maybe before the check ran.
 - **Both say the message acknowledges features, not Growth's goal:** their targets stay the same while their tools go.
 - **Claude's chat wasn't clean:** it knew about the buddy experiment and its change of lead, which the prompt didn't mention, so it had earlier context. Its point still stands, since Growth can see the roadmap too.
+
+### 2. Re-check of the revised message · new memory-off chats in both models
+
+The same Lab Guide prompt, filled with the message as revised after the first check, run in fresh chats so neither model carries earlier context.
+
+```text
+I am a product leader. I need to tell a stakeholder no to something they want, and I want the message to be clear and keep the relationship working. Read my message as that stakeholder.
+
+The decision: We are not building a community and social layer or progress sharing.
+The stakeholder: The Growth team lead
+My message: Growth co-owns the bedtime reminder we ship this quarter, and any message we send someone before bedtime is a joint call between you and PM 2. We are not building a community and social layer or progress sharing, and that decision is made. The only social work on the roadmap is a one-to-one buddy test, led by PM 2 and co-designed with you, which runs only if day-180 retention plateaus once the steady plan is live. I know you pushed for social features and streaks to keep people longer and grow through referrals, and this takes them away while your targets stay the same. The reason is the people we serve: sharing mental-health progress needs safeguarding a team of 14 can't staff. On Thursday I'll meet you and PM 2 to agree the reminder plan and a referral invite Growth can run this quarter that shares nothing about anyone's use, and you'll see the retention numbers when I do.
+
+Tell me:
+1. Could I read this as a maybe? Quote the words that leave room.
+2. Does it acknowledge what I need and what this costs me?
+3. Is the path forward specific?
+Then suggest one change that would make it clearer. Be direct.
+```
