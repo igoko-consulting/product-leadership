@@ -58,7 +58,9 @@ Practice-only exercises (M3 team situation, M4 negotiation, M5 funding decision,
 
 # Clarity and consistency (every module)
 
+- **README:** the strategy in one sentence, the scenario (the only place it lives), the "How each module builds on the last" table, open items carried forward, and the status table. Update the thread table, open items and status at the end of every lab.
 - **Module folder:** the deliverable, `NOTES.md`, and `ai-replies/`. Nothing else unless the Lab Guide produces it (the M2 roadmap visual).
+- **`NOTES.md` layout:** a header line (session, date, sources, what it builds on, output); the module's ideas as H2 sections with tables where the slides compare things; then `## Labs` with an H3 per lab holding that lab's inputs (such as the scored backlog) and decisions. Every bullet ends with a "Missed:" view.
 - **`ai-replies/` files:** one Markdown file per lab step, `<step>-<name>.md`, holding both replies, GPT-6 first, then Claude. Visual outputs go in as `<step>-<name>-gpt6.png|pdf` and `<step>-<name>-claude.png|pdf`. Each file opens with one line naming the prompt, the date and that the words are unchanged, then a jump line to each model. Restore tables and lists flattened by copying; where something can't be recovered, say so in an italic bracketed note.
 - **`PROMPTS.md`:** an H2 per module (`Module N · <deliverable>`), an H3 per step (`N. <step>`), the prompt in a `text` block, then "**How the two replies compared** · " with links to the replies, a GPT-6 | Claude table, and two or three verdict bullets.
 - **Evidence links:** the deliverable links to its `ai-replies/` files where a decision rests on them; `NOTES.md` links to them in its Labs section.

@@ -1,16 +1,6 @@
 # Module 1 notes: Write a Strategy That Can Survive a Test
 
-Session 1, 16 Nov 2026. Sources: Module 1 slides and Lab Guide. Output: [strategy-and-okrs.md](strategy-and-okrs.md).
-
-## The scenario: Fable Growth
-
-- **The company:** a mental-wellness app for adults aged 25 to 45, built on guided meditations, sleep stories and breathing exercises. It peaked at 4.2M active users, known as the app that helped people through a hard stretch.
-- **The problem:** growth has stalled because the product solves its first job. Deep users, usually in a high-stress period, recover within 90 to 120 days and drift away, with no next step. The users most likely to pay are the most likely to leave.
-- **The market:** Headspace and Calm own awareness; AI mental-health apps target the same users with more personalisation.
-- **The open call:** budget for one major initiative, and three camps: clinical wants CBT programmes, growth wants a community and social layer, content wants more content. Who the product is for now is unresolved.
-- **Constraints:** no repositioning as clinical; meditation and sleep content stays the foundation; the real competitor for the post-acute user is deciding they don't need Fable; a team of 14 across product, design, engineering, content and clinical advisory; the existing freemium and premium model.
-
-**The other scenario, for reference (Module 4's negotiation and Module 5's funding case use both):** Meridian Foundations. A construction project-management platform, the system of record for 38 of the top 100 US general contractors on $50M+ projects. Field teams (superintendents, foremen) barely use it and run the job on phone photos and group texts, while firms on $5M to $50M projects churn to simpler mobile-first tools. The enterprise team wants more analytics, ERP integrations and the top 10 contractors; the product team wants a mobile field experience. Constraints: additive to the core platform, no removing features finance and compliance use, a team of 10, and the field first with mid-market land-and-expand second.
+Session 1, 16 Nov 2026. Sources: Module 1 slides and Lab Guide. Scenario: [README](../README.md#the-scenario-fable-growth). Output: [strategy-and-okrs.md](strategy-and-okrs.md).
 
 ## From PM to product leader
 
