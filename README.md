@@ -10,7 +10,7 @@
 
 | # | Deliverable | Module | Status | File |
 |---|---|---|---|---|
-| 1 | **Product Strategy & OKRs** (Playing to Win + hard no + OKRs + AI pressure-test) | M1 | ☐ | [`01-strategy/strategy-and-okrs.md`](01-strategy/strategy-and-okrs.md) |
+| 1 | **Product Strategy & OKRs** (Playing to Win + hard no + OKRs + AI pressure-test) | M1 | ✅ | [`01-strategy/strategy-and-okrs.md`](01-strategy/strategy-and-okrs.md) |
 | 2 | **Outcome Roadmap & Trade-off Memo** | M2 | ☐ | [`02-roadmap/outcome-roadmap.md`](02-roadmap/outcome-roadmap.md) |
 | 3 | **Team Charter** (What We Own + How We Decide) | M3 | ☐ | [`03-team-charter/team-charter.md`](03-team-charter/team-charter.md) |
 | 4 | **Stakeholder Message** (a hard no to my Module 3 stakeholder) | M4 | ☐ | [`04-stakeholder-message/stakeholder-message.md`](04-stakeholder-message/stakeholder-message.md) |
@@ -36,7 +36,8 @@ product-leadership/
 ├── PROMPTS.md                             ← every lab prompt, and how GPT-6 and Claude replied
 ├── 01-strategy/
 │   ├── strategy-and-okrs.md               ← M1: Playing to Win + hard no + OKRs + AI pressure-test   ★ Deliverable 1
-│   └── NOTES.md                           ← M1 class notes and takeaways
+│   ├── NOTES.md                           ← M1 class notes and takeaways
+│   └── ai-replies/                        ← both models' replies, word for word
 ├── 02-roadmap/
 │   └── outcome-roadmap.md                 ← M2: outcome roadmap + trade-off memo   ★ Deliverable 2
 ├── 03-team-charter/
