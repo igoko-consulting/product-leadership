@@ -32,6 +32,9 @@ Fable bets its one initiative on the people it helped through a hard stretch: a 
 - **Self-check:** a check the user starts, which brings back what worked. Fable never monitors or diagnoses.
 - **Acute-level use:** the in-app pattern of a new hard stretch, with a non-diagnostic definition still to agree with the clinical advisers.
 - **Concierge test:** the steady plan hand-built by the content team for a small consenting group, used in Now to test demand, nightly use and willingness to pay before building it. It replaced a fake door, an offer for a feature not yet built.
+- **PM 1, PM 2, PM 3:** the scenario's three PMs, owning onboarding (days 0 to 60), retention (the post-acute experience, accountable for KR1–KR3) and the AI check-in layer.
+- **Fable product lead:** my role in the scenario, over the three PMs. Only the product lead moves work between Now, Next and Later, and settles conflicts the PMs can't.
+- **Shared services and shared platform:** shared services are teams outside the 14 lent to the initiative (Growth, Legal/Privacy, Data/Insights, Commercial); the shared platform is PM 3's AI check-in layer, which PM 1 and PM 2 both use.
 - **Rocks and hard nos:** the quarter's three strategic bets, and three valuable things deliberately not done.
 
 ## How each module builds on the last
@@ -40,11 +43,11 @@ Fable bets its one initiative on the people it helped through a hard stretch: a 
 |---|---|---|
 | **M1** Strategy & OKRs | Post-acute users who still use sleep content; a steady plan built around a nightly wind-down, fitted by what helped them in the hard stretch; self-checks the user starts, not monitoring; no community layer. KR1 day-180 retention on monthly plans, KR2 wind-down nights, KR3 steady without feeling dependent, all by month 12. | Every M2 rock links to a KR, and the roadmap prompt carries the strategy word for word. |
 | **M2** Roadmap | Rocks: the steady plan and self-check (backlog #6, KR3), the notification fix (#4, KR2), load time (#14, KR2). Hard nos: #5 therapist-matching tier, #3 social layer, #2 daily streak. Now tests demand first with a concierge test (plans hand-built for a small consenting group) and a stop rule; the Growth team co-owns the bedtime reminders; Next builds the steady plan only if the test passes. | M3's charter settles the tension with the Growth team; M4 writes a hard no to the Growth lead; M5 builds the business case for one rock. |
-| **M3** Team charter | PM 2 owns the post-acute experience and KR1–KR3; PM 1 owns days 0 to 60; PM 3's AI layer is a shared service whose output after day 60 is PM 2's call; the bedtime reminder is shared with Growth; Fable never starts a check-in. Conflicts go to a one-page note, then the Fable product lead, or the CPO when Growth is a party. | M4 writes a hard no to the Growth lead, the other side of this tension. |
+| **M3** Team charter | PM 2 owns the post-acute experience and KR1–KR3; PM 1 owns days 0 to 60; PM 3's AI layer is a shared platform whose output after day 60 is PM 2's call; the bedtime reminder is shared with Growth; Fable never starts a check-in. Conflicts go to a one-page note, then the Fable product lead, or the CPO when Growth is a party. | M4 writes a hard no to the Growth lead, the other side of this tension. |
 | **M4** Stakeholder message | ☐ | |
 | **M5** Business case | ☐ | |
 
-**Open items carried forward:** for M5, the monthly versus annual plan mix, an LTV case against the cost of 14 people for a year, and real baselines for the roadmap's placeholder thresholds.
+**Open items carried forward:** for M4, which hard no goes to the Growth lead, #2 (daily streak) or #3 (social layer), both Growth-side asks; for M5, the monthly versus annual plan mix, an LTV case against the cost of 14 people for a year, and real baselines for the roadmap's placeholder thresholds; optional, the charter's How We Work part.
 
 ## Deliverables at a glance
 

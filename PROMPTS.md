@@ -219,6 +219,14 @@ Bet 1 swapped its fake door for a concierge test, so only that card on the slide
 Update only the first Now card: Bet 1 is now a concierge test, not a fake door. Title: "Concierge test: steady plan". Teams: Product · Content · Clinical advisory · Design. Signal: ≥30% opt in · ≥35% use it 3+ nights · ≥10% resume paid · regulatory all-clear, else stop. Change nothing else.
 ```
 
+### 6. Buddy owner · Claude chat only, after Module 3 named the owners
+
+The Module 3 charter gave the buddy experiment to PM 2, so only that card's teams change.
+
+```text
+Update only the "Gated buddy experiment" card: change its teams to Product · Growth, with Product first as the lead. Change nothing else.
+```
+
 ---
 
 ## Module 3 · Team charter
