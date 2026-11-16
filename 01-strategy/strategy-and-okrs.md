@@ -18,11 +18,11 @@
 
 ## 3. OKR cascade
 
-> **Objective:** _____
+> **Objective:** Make Fable the app people keep after the hard stretch passes.
 >
-> - **KR1:** _____
-> - **KR2:** _____
-> - **KR3:** _____
+> - **KR1:** Premium users who engaged deeply in their first 90 days who are still subscribed at day 180: 35% → 55%.
+> - **KR2:** Those users still using Fable at least weekly from day 90 to 180: 20% → 45%.
+> - **KR3:** Users whose check-in shows an early dip and who come back to a session within 48 hours: 25% → 60%.
 
 ## 4. AI pressure-test
 

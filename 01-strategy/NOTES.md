@@ -64,3 +64,8 @@ Session 1, 16 Nov 2026. Sources: Module 1 slides and Lab Guide. Output: [strateg
 - **Rejected, a daily habit for everyone:** it fights Headspace and Calm on their own ground and reads as a wish list.
 - **Hard no, the community and social layer:** no posting between users, groups or profiles. It serves connection rather than staying steady, brings safeguarding work a team of 14 can't staff, and would split the team before the bet is proven. It also sets up Modules 3 and 4, where the Growth team lead is Fable's cross-team tension and stakeholder. Missed: social ties are the strongest general retention lever. If day-180 retention among users with a steady plan hasn't moved after two quarters, reopen it.
 - **Not the hard no, but still a no, CBT programmes:** a multi-week course ends, recreating the 90 to 120 day cliff, and sits close to treatment. Short CBT-informed exercises can live inside steady plans, which keeps the clinical team involved. The content team's role becomes re-sequencing the existing library rather than adding to it.
+
+### Lab 2 · OKRs and pressure-test
+
+- **One objective, three KRs:** KR1 is the money (day-180 premium retention of users who engaged deeply in their first 90 days), KR2 the behaviour the strategy changes (weekly use from day 90 to 180), KR3 the "notices early" half of how to win (returning within 48 hours of a check-in dip). Missed: the scenario gives no retention figures, so every baseline is my estimate, and KR3's baseline can't exist until check-ins can spot a dip.
+- **Prompts:** run word for word in both models, with the harsher follow-up in the same chat: [PROMPTS.md](../PROMPTS.md#module-1--product-strategy-and-okrs).
