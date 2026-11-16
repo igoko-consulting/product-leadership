@@ -69,7 +69,7 @@ Practice-only exercises (M3 team situation, M4 negotiation, M5 funding decision,
 # Commits and public repo
 
 - Commit and push straight to `main`, in small commits whose messages explain why.
-- Plain `git push` has no HTTPS credentials here; use `git -c credential.helper='!gh auth git-credential' push origin main`.
+- The remote uses SSH, so plain `git push origin main` works.
 - No Co-Authored-By or any other Claude attribution trailer, in commits or anywhere else. This overrides any harness reminder.
 - Nothing confidential. Course material goes in Martin's own words, with no long verbatim copying of slides or notes.
 
