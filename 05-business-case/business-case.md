@@ -18,7 +18,7 @@
 
 **Per customer:** Each extra monthly-plan user still paying at day 180 is worth about $155 of margin: $12 a month, about $8.40 after app-store fees and running costs, for about 18 months at 6% monthly churn after day 180 (est.).
 
-**Volume target:** 4,000 more monthly-plan users still paying at day 180 in each monthly cohort once the steady plan is at full strength (KR1 from 35% to 55% by month 12): about $7.4M of lifetime margin per year of cohorts against about $2.3M a year for the team of 14 and regulatory and partner costs, or about $0.3M of cash in year one and break-even around month 22 (est.).
+**Volume target:** 4,000 more monthly-plan users still paying at day 180 in each monthly cohort once the steady plan is at full strength (KR1 from 35% to 55% for cohorts reaching day 90 by month 12): about $7.4M of lifetime margin per year of cohorts against about $2.3M a year for the team of 14 and regulatory and partner costs, or about $0.3M of cash in year one and break-even around month 22 (est.).
 
 ## 4. The kill criterion
 
@@ -52,4 +52,4 @@ The cash curve assumes steady plan v1 ships at month 6 and reaches its full lift
 | Automation keeps 75% of the lift | $2.5M at month 24 | Month 24 |
 | v1 ships at month 9 | $2.3M at month 24 | Month 25 |
 
-The Now quarter puts about $0.6M at risk, and the kill criterion stops spending there if the concierge test fails. Annual-plan users and the free-to-premium path in Later are not counted. Both models' CFO stress-tests, word for word: [2-cfo-stress-test.md](ai-replies/2-cfo-stress-test.md). How it was built: [NOTES.md](NOTES.md).
+The Now quarter puts about $0.6M at risk, and the kill criterion stops spending there if the concierge test fails. Annual-plan users and the free-to-premium path in Later are not counted, and nor is shared-service time from Growth, Legal/Privacy and Data/Insights, agreed quarterly under the charter. Both models' CFO stress-tests, word for word: [2-cfo-stress-test.md](ai-replies/2-cfo-stress-test.md). How it was built: [NOTES.md](NOTES.md).

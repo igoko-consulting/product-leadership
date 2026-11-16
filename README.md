@@ -35,6 +35,7 @@ Fable bets its one initiative on the people it helped through a hard stretch: a 
 - **PM 1, PM 2, PM 3:** the scenario's three PMs, owning onboarding (days 0 to 60), retention (the post-acute experience, accountable for KR1–KR3) and the AI check-in layer.
 - **Fable product lead:** my role in the scenario, over the three PMs. Only the product lead moves work between Now, Next and Later, and settles conflicts the PMs can't.
 - **Shared services and shared platform:** shared services are teams outside the 14 lent to the initiative (Growth, Legal/Privacy, Data/Insights, Commercial); the shared platform is PM 3's AI check-in layer, which PM 1 and PM 2 both use.
+- **By month 12 (the KRs):** measured on the cohorts that reach day 90 by month 12; their day-180 results arrive by month 15.
 - **Plateau:** day-180 retention flat for two monthly cohorts after the steady plan launches, judged by the Fable product lead at the monthly cohort review. It is the only condition for the buddy test.
 - **Rocks and hard nos:** the quarter's three strategic bets, and three valuable things deliberately not done.
 
