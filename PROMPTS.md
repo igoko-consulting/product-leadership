@@ -46,6 +46,21 @@ Please do the following:
 5. In one sentence: is this a strategy or a wish list? Why?
 ```
 
+**How the two replies compared** · both replies, word for word: [1-pressure-test.md](01-strategy/ai-replies/1-pressure-test.md)
+
+| Point | GPT-6 | Claude |
+|---|---|---|
+| Biggest assumption | Recovered users want an ongoing relationship with Fable, and will pay for it | The same: people who feel fine rarely pay to prevent a problem, so the churn may be the job finishing well; the moat is second |
+| Board question | What evidence shows users value their history enough to keep paying? | If a check-in detects slipping, how is that not clinical monitoring, and who is liable when it misses someone? |
+| Outputs as outcomes | KR3 a proxy that could rise while the product gets worse; KR2 a supporting indicator; KR1 genuine | KR3 an output with no possible baseline; KR2 half output; KR1 may be annual-plan inertia |
+| Missing measure | Users saying Fable helps them stay well without feeling dependent on it | Self-reported steadiness at day 180, or fewer users dropping back into acute-level use |
+| The hard no | Keep community out of the first investment, but test light social accountability | One buddy mechanic as a gated experiment; shared streaks, gifting and anonymous presence carry little moderation risk |
+| Strategy or wish list | A strategy in customer and positioning, partly a wish list in execution | A strategy built around a wish: unproven demand, a thin moat, a check-in that may breach the clinical constraint |
+
+- **They agreed on the biggest assumption:** that recovered users want, and will pay for, an ongoing relationship. It's the one I'd flagged myself.
+- **Claude found the sharpest risk:** detecting that someone is slipping may make the check-in a medical device in the UK and EU, which would put How to Win against the first constraint. GPT-6 didn't raise it.
+- **Both pushed on the hard no, but not on its core:** neither argued for posting, groups or profiles. Both wanted one light, tested social mechanic instead of the community layer the growth team asked for.
+
 ### 2. Harsher follow-up · same chat as each pressure test
 
 ```text
