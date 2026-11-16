@@ -336,3 +336,17 @@ Tell me:
 3. Is the path forward specific?
 Then suggest one change that would make it clearer. Be direct.
 ```
+
+**How the two replies compared** · both replies, word for word: [2-recheck.md](04-stakeholder-message/ai-replies/2-recheck.md)
+
+| Point | GPT-6 | Claude |
+|---|---|---|
+| Verdict | 9 out of 10; the no is clear, the exception needs tighter boundaries | Much stronger; only a few gaps left |
+| Openings left | "Plateaus" is undefined (what, who decides, when) | "Plateaus" is undefined; a capacity reason invites "we'll staff it"; streaks aren't in the decision line |
+| Acknowledgement | The strongest improvement: rationale, lost asks and unchanged targets | Yes; it names both goals and the cost; Growth will raise its targets on Thursday anyway |
+| Path forward | Clear owners and a meeting; the referral invite needs a measure | Clear; name which retention numbers and when |
+| One change | Gate the buddy test behind a separate review | Make the reason about risk to people, not headcount |
+
+- **Both landed on the same opening:** "plateaus" with no number or owner, so Growth could argue the first flat month counts.
+- **Claude found the deeper one:** a capacity reason can be answered with capacity, while Module 1's other reason, risk to people at their most vulnerable, can't.
+- **Neither found a new maybe in the main no,** so the fixes are confined to the exception, the reason and two details, then the message stops changing.
