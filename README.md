@@ -39,7 +39,8 @@ product-leadership/
 │   ├── NOTES.md                           ← M1 class notes and takeaways
 │   └── ai-replies/                        ← both models' replies, word for word
 ├── 02-roadmap/
-│   └── outcome-roadmap.md                 ← M2: outcome roadmap + trade-off memo   ★ Deliverable 2
+│   ├── outcome-roadmap.md                 ← M2: outcome roadmap + trade-off memo   ★ Deliverable 2
+│   └── NOTES.md                           ← M2 class notes and takeaways
 ├── 03-team-charter/
 │   └── team-charter.md                    ← M3: What We Own + How We Decide         ★ Deliverable 3
 ├── 04-stakeholder-message/
