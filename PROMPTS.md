@@ -204,3 +204,9 @@ Here is my updated final roadmap:
 ```text
 Turn the final roadmap above into a simple visual. Use three columns labeled Now, Next and Later. Show each bet as a card with its owning team and success signal underneath. Use large, readable text and a plain background, so it works on a presentation slide.
 ```
+
+Then, in the same chat, because the redraw kept "Relapse-reduction evidence" as a card title and moved the fix into the speaker notes:
+
+```text
+Rename the "Relapse-reduction evidence" card to "Fewer users back at acute level", so the slide matches the table and avoids clinical wording. Change nothing else.
+```
