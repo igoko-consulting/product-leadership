@@ -1,4 +1,4 @@
-# Team Charter
+# Team Charter: Fable Growth
 
 > Module 3 · Set the Habits That Make a Team Faster
 

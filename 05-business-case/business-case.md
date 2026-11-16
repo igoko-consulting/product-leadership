@@ -1,4 +1,4 @@
-# Business Case
+# Business Case: Fable Growth
 
 > Module 5 · Build the Business Case and the Kill Line
 

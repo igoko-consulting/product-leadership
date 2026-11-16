@@ -285,3 +285,36 @@ How cross-team conflicts escalate: ...
 - **Claude answered the question the tension asks:** who decides when PM 2's retention work and PM 3's AI layer overlap. GPT-6's split between "the post-acute experience" and "the broader retention lifecycle" would start the arguments it is meant to stop.
 - **Claude drifted from earlier modules in two places:** it gives the bedtime reminder to the team when Module 2 made Growth a co-owner, and it lets an AI check-in that Fable starts go live after v1, which Module 1 ruled out.
 - **GPT-6 saw one thing Claude missed:** the product lead can't overrule a peer team, so a conflict with Growth needs someone above both to decide.
+
+---
+
+## Module 4 · Stakeholder message
+
+### 1. Optional AI check
+
+```text
+I am a product leader. I need to tell a stakeholder no to something they want, and I want the message to be clear and keep the relationship working. Read my message as that stakeholder.
+
+The decision: We are not building a social layer, sharing progress with friends included, in this initiative.
+The stakeholder: The Growth team lead
+My message: Growth co-owns the bedtime reminder we ship this quarter, the change most likely to keep people with us, and any message we send someone before bedtime is a joint call between you and PM 2. We are not building a social layer, sharing progress with friends included, in this initiative, and that decision is made. I know a social layer has been Growth's answer to retention from the start, and that this, with the daily streak, takes two of your asks off the plan and the referral loop that came with them. The reason is the people we serve: sharing mental-health progress needs safeguarding a team of 14 can't staff while we prove the steady plan. This week I'll book an hour with you and PM 2 to agree the bedtime reminder plan and the messaging rules you co-own, and you'll see the day-180 retention numbers at the same time I do.
+
+Tell me:
+1. Could I read this as a maybe? Quote the words that leave room.
+2. Does it acknowledge what I need and what this costs me?
+3. Is the path forward specific?
+Then suggest one change that would make it clearer. Be direct.
+```
+
+**How the two replies compared** · both replies, word for word: [1-ai-check.md](04-stakeholder-message/ai-replies/1-ai-check.md)
+
+| Point | GPT-6 | Claude |
+|---|---|---|
+| Could it be read as a maybe? | Mostly no; "in this initiative" leaves a small opening | Yes, twice: "in this initiative" and "while we prove the steady plan"; leaving out the buddy experiment also sounds partly open |
+| What it acknowledges | The lost features and referral loop, but not the commercial ambition behind them | Names my features, not my problem: my targets haven't changed and I've lost my levers |
+| Path forward | Strongest part, though the meeting needs a date | Only for your plan: no date or outcome for the meeting, and nothing Growth can act on this quarter |
+| One change | Acknowledge the commercial goal behind social, streaks and referrals | Name the single condition under which social comes back, and offer a privacy-safe referral route |
+
+- **Both found "in this initiative" leaves the door open,** and Claude also caught "while we prove the steady plan", the phrase flagged as the likeliest maybe before the check ran.
+- **Both say the message acknowledges features, not Growth's goal:** their targets stay the same while their tools go.
+- **Claude's chat wasn't clean:** it knew about the buddy experiment and its change of lead, which the prompt didn't mention, so it had earlier context. Its point still stands, since Growth can see the roadmap too.
