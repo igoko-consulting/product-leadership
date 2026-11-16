@@ -19,7 +19,7 @@
 
 ## The strategy in one sentence
 
-_Written once Module 1's strategy holds up to the pressure-test._
+Fable bets its one initiative on the people it helped through a hard stretch: a personal nightly wind-down keeps them once they recover, and the community layer waits.
 
 ___
 
