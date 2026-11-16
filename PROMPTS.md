@@ -154,6 +154,20 @@ Here is my final roadmap:
 | Later (6 to 12 mo) | Bet: relapse-reduction evidence. Show that fewer Fable users drop back into acute-level use. This is the moat, and it needs 12+ months of cohort data; Bet: a fast route back. When a self-check shows a dip, offer a one-tap return to the content that helped last time, stepping up support before someone churns or tips into crisis; Bet: a gated buddy experiment. One-to-one accountability with someone the user already knows. Revisit the hard no on social only if KR1 plateaus; Bet: the steady plan as an upgrade path from free. Post-acute freemium users get a taste of the steady plan; Bet: a prevention offer to employers or insurers. Out of scope today. Reconsider only if the outcome evidence lands | Product, Data/Insights, Clinical advisory, Growth, Commercial | A clear, statistically significant gap in acute re-entry between steady-plan users and a control group; KR3 at 70%; buddy pairs retain at least 10 points better than solo users; free-to-premium conversion from the steady plan at least 2x the baseline |
 ```
 
+**How the two replies compared** · both replies, word for word: [2-final-roadmap.md](02-roadmap/ai-replies/2-final-roadmap.md)
+
+| Point | GPT-6 | Claude |
+|---|---|---|
+| Verdict | A credible, staged strategy, after five observations | Ready to submit, after five gaps a board member would find in five minutes |
+| Measurement | Bet 1's 15% and 5% need denominators and a paid rejoin; 98% on time is a guardrail, not an outcome; opt-outs relative or absolute? | KR3 has no read until Later; two Later bets have no success signal |
+| Clinical line | "Relapse-reduction" isn't a moat yet: it needs a control group and a non-diagnostic definition of acute-level use | "Tips into crisis" implies Fable detects crises |
+| Resourcing | Prove a rules-based steady plan before paying for AI personalisation | Teams outside the 14 need a footnote; one lead team per item |
+| Scope and framing | A stronger condition on the employer offer; Now proves demand, Next behaviour, Later value | None |
+
+- **Their fixes barely overlap:** together they make about ten small edits, and neither changes the plan.
+- **Both caught clinical wording from different sides:** GPT-6 on the moat, Claude on the route back.
+- **GPT-6's rules-based first version matters most:** it cuts build risk for a team of 14 and keeps AI for when it has earned its cost.
+
 ### 3. Visual · same chat, after the final roadmap
 
 ```text
