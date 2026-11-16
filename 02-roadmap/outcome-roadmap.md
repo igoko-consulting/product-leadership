@@ -12,7 +12,7 @@
 >
 > **Hard no 1:** Launch a premium tier with therapist-matching. It moves Fable towards the clinical positioning it can't take, serves the acute phase rather than the post-acute user, and is the biggest build on the list.
 >
-> **Hard no 2:** Build a social layer: share your progress with friends. Sharing mental-health progress with friends brings privacy and safeguarding risk that a team of 14 can't carry alongside the steady plan; a one-to-one buddy experiment runs only if KR1 plateaus once the steady plan is live.
+> **Hard no 2:** Build a social layer: share your progress with friends. Sharing mental-health progress with friends puts people at risk when they're most vulnerable, however it's staffed, and would split a team of 14 before the steady plan is proven; a one-to-one buddy experiment runs only if KR1 plateaus once the steady plan is live.
 >
 > **Hard no 3:** Add a daily streak feature to drive habit formation. It rewards daily opens, the nudging both models warned about in Module 1, and works against KR3's "without feeling dependent"; the wind-down counts nights a week, not unbroken days.
 
