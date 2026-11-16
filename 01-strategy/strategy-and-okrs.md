@@ -8,8 +8,8 @@
 |---|---|
 | **Winning aspiration** | When the hard stretch passes, people keep Fable to hold on to the progress they made, sleeping well and staying steady, because it knows what helped them and has it ready the moment they feel things slipping. |
 | **Where to play** | Adults 25–45 who used Fable heavily through a stressful stretch and still use its sleep content as their need eases (about day 60–120), reached inside the app, premium users first. Out: competing with Headspace and Calm for new users, selling to employers, and anyone needing clinical care, whom we signpost elsewhere. |
-| **How to win** | Fable is the only app that saw what actually helped each person through their hardest stretch. We use that history to fit each person's steady plan, built around a nightly wind-down, from the first night, and a self-check the user starts brings back what worked. Over time, evidence that fewer Fable users drop back into acute-level use becomes the moat rivals can't copy quickly. |
-| **Capabilities required** | Personalisation built in-house from each user's session and self-check history, because that history is the advantage. Steady plans built around a nightly wind-down that re-sequence the existing meditation and sleep library rather than adding new content. Self-checks the user starts, not monitoring, designed with the clinical advisers, with a regulatory opinion before launch and a partner to signpost care. Consent and privacy fit for sensitive wellbeing data. |
+| **How to win** | Fable is the only app that saw what actually helped each person through their hardest stretch. We use that history to fit each person's steady plan, built around a nightly wind-down, from the first night, and a self-check the user starts brings back what worked. Over time, evidence that fewer Fable users drop back into acute-level use can become the moat rivals can't copy quickly. |
+| **Capabilities required** | Personalisation built in-house from each user's session and self-check history, rules-based first and AI only once it lifts retention, because that history is the advantage. Steady plans built around a nightly wind-down that re-sequence the existing meditation and sleep library rather than adding new content. Self-checks the user starts, not monitoring, designed with the clinical advisers, with a regulatory opinion before launch and a partner to signpost care. Consent and privacy fit for sensitive wellbeing data. |
 | **Management systems** | Day-180 premium retention for users who engaged deeply in their first 90 days, split by monthly and annual plans and reviewed monthly by cohort. Nights a week with a wind-down session from day 90 to 180. Notification opt-outs as a guardrail. A monthly clinical-safety review. A yearly read of users dropping back into acute-level use. A quarterly board review against the OKRs. |
 
 ## 2. Your one hard no
@@ -20,9 +20,9 @@
 
 > **Objective:** Make Fable the app people keep after the hard stretch passes.
 >
-> - **KR1:** Monthly-plan premium users who engaged deeply in their first 90 days who are still subscribed at day 180: 35% → 55%.
-> - **KR2:** Those users using a sleep or wind-down session at least three nights a week from day 90 to 180: 15% → 40%.
-> - **KR3:** Those users who say in an in-app survey at day 180 that Fable helps them stay steady without feeling dependent on it: 40% → 70%.
+> - **KR1:** Monthly-plan premium users who engaged deeply in their first 90 days and are still subscribed at day 180: 35% → 55% by month 12.
+> - **KR2:** Those users using a sleep or wind-down session at least three nights a week from day 90 to 180: 15% → 40% by month 12.
+> - **KR3:** Those users who say in an in-app survey at day 180 that Fable helps them stay steady without feeling dependent on it: 40% → 70% by month 12.
 
 ## 4. AI pressure-test
 

@@ -22,11 +22,23 @@ Fable bets its one initiative on the people it helped through a hard stretch: a 
 
 **The other scenario** (Module 4's negotiation and Module 5's funding case use both): Meridian Foundations, a construction project-management platform and the system of record for 38 of the top 100 US general contractors. Its field teams barely use it and run the job on phone photos and group texts, while firms on $5M to $50M projects churn to simpler mobile-first tools. The enterprise team wants analytics, ERP integrations and the top 10 contractors; the product team wants a mobile field experience. Constraints: additive to the core platform, no removing features finance and compliance use, a team of 10, and the field first.
 
+## Terms used in this repo
+
+- **Hard stretch:** the period of high stress that brings someone to Fable, usually resolved within 90 to 120 days.
+- **Post-acute users:** people whose need is easing after the hard stretch, about day 60 to 120. The strategy's target.
+- **Deep users:** people who used Fable heavily in their first 90 days, the most likely to pay and the most likely to leave. Churned deep users have already left.
+- **Steady plan:** each user's personal plan, built around a nightly wind-down from the meditation and sleep content that helped them before.
+- **Nightly wind-down:** the bedtime session the steady plan is built around. KR2 counts the nights it is used.
+- **Self-check:** a check the user starts, which brings back what worked. Fable never monitors or diagnoses.
+- **Acute-level use:** the in-app pattern of a new hard stretch, with a non-diagnostic definition still to agree with the clinical advisers.
+- **Fake door:** an offer for a feature not yet built, used in Now to test demand before building it.
+- **Rocks and hard nos:** the quarter's three strategic bets, and three valuable things deliberately not done.
+
 ## How each module builds on the last
 
 | Module | What I decided | What the next module takes from it |
 |---|---|---|
-| **M1** Strategy & OKRs | Post-acute users who still use sleep content; a steady plan built around a nightly wind-down, fitted by what helped them in the hard stretch; self-checks the user starts, not monitoring; no community layer. KR1 day-180 retention on monthly plans, KR2 wind-down nights, KR3 steady without feeling dependent. | Every M2 rock links to a KR, and the roadmap prompt carries the strategy word for word. |
+| **M1** Strategy & OKRs | Post-acute users who still use sleep content; a steady plan built around a nightly wind-down, fitted by what helped them in the hard stretch; self-checks the user starts, not monitoring; no community layer. KR1 day-180 retention on monthly plans, KR2 wind-down nights, KR3 steady without feeling dependent, all by month 12. | Every M2 rock links to a KR, and the roadmap prompt carries the strategy word for word. |
 | **M2** Roadmap | Rocks: the steady plan and self-check (backlog #6, KR3), the notification fix (#4, KR2), load time (#14, KR2). Hard nos: #5 therapist-matching tier, #3 social layer, #2 daily streak. Now tests demand first with a fake door and a stop rule; the Growth team co-owns the bedtime reminders; Next builds the steady plan only if the test passes. | M3's charter settles the tension with the Growth team; M4 writes a hard no to the Growth lead; M5 builds the business case for one rock. |
 | **M3** Team charter | ☐ | |
 | **M4** Stakeholder message | ☐ | |
