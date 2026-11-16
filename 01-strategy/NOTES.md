@@ -54,3 +54,13 @@ Session 1, 16 Nov 2026. Sources: Module 1 slides and Lab Guide. Output: [strateg
 ## AI as a strategy co-pilot
 
 - **Three uses:** monitoring competitors' moves as they happen; synthesising market, competitor and customer signals; and stress-testing the strategy by having AI argue as the CFO or the biggest competitor. The call stays with me. Missed: a model told to be sceptical will always find something, so the value is in which challenge I accept and why, which is what the lab's last step asks for. Running two models with the same prompt shows which challenges are the prompt's framing and which are real.
+
+## Labs
+
+### Lab 1 · One-page strategy
+
+- **Chosen, stay steady:** Fable keeps users after the hard stretch by turning what helped them into a steady plan and check-ins that spot an early dip. It answers the brief's real competitor, the user deciding they don't need Fable, with the one thing only Fable has: their history. Missed: it assumes recovered users want ongoing support at all. Some of this churn may be healthy, and the pressure-test should go there first.
+- **Rejected, come back first:** accept low use between hard stretches and let premium pause rather than cancel. Missed: it may be the more honest read of how people use wellness apps, but a pause option strains the existing subscription model and gives up revenue between stretches.
+- **Rejected, a daily habit for everyone:** it fights Headspace and Calm on their own ground and reads as a wish list.
+- **Hard no, the community and social layer:** no posting between users, groups or profiles. It serves connection rather than staying steady, brings safeguarding work a team of 14 can't staff, and would split the team before the bet is proven. It also sets up Modules 3 and 4, where the Growth team lead is Fable's cross-team tension and stakeholder. Missed: social ties are the strongest general retention lever. If day-180 retention among users with a steady plan hasn't moved after two quarters, reopen it.
+- **Not the hard no, but still a no, CBT programmes:** a multi-week course ends, recreating the 90 to 120 day cliff, and sits close to treatment. Short CBT-informed exercises can live inside steady plans, which keeps the clinical team involved. The content team's role becomes re-sequencing the existing library rather than adding to it.
