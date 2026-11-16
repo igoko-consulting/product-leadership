@@ -77,7 +77,8 @@ product-leadership/
 │   ├── NOTES.md                           ← M2 ideas, takeaways and the scored backlog
 │   └── ai-replies/                        ← both models' replies, and the roadmap visual for Module 6
 ├── 03-team-charter/
-│   └── team-charter.md                    ← M3: What We Own + How We Decide         ★ Deliverable 3
+│   ├── team-charter.md                    ← M3: What We Own + How We Decide         ★ Deliverable 3
+│   └── NOTES.md                           ← M3 ideas, takeaways and the charter's decisions
 ├── 04-stakeholder-message/
 │   └── stakeholder-message.md             ← M4: a hard no to my Module 3 stakeholder  ★ Deliverable 4
 ├── 05-business-case/

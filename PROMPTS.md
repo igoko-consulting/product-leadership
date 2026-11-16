@@ -218,3 +218,48 @@ Bet 1 swapped its fake door for a concierge test, so only that card on the slide
 ```text
 Update only the first Now card: Bet 1 is now a concierge test, not a fake door. Title: "Concierge test: steady plan". Teams: Product · Content · Clinical advisory · Design. Signal: ≥30% opt in · ≥35% use it 3+ nights · ≥10% resume paid · regulatory all-clear, else stop. Change nothing else.
 ```
+
+---
+
+## Module 3 · Team charter
+
+### 1. Charter draft
+
+```text
+You are an experienced product leader helping me draft two parts of a team charter: What We Own and How We Decide. Make every line specific enough to settle a real decision or conflict. Avoid generic values like "we collaborate" or "we stay aligned".
+Here is my context:
+Scenario: Imagine you are a Product Leader at Fable, a mental-wellness app for adults aged 25 to 45. Fable grew quickly on a simple, calming experience of guided meditations, sleep stories, and breathing exercises. At its peak it had 4.2 million active users and a strong reputation as the app that actually helped, the one people reached for during a hard stretch.
+Growth has now flatlined, and the churn analysis shows a counterintuitive cause: the product works too well for its original job. Users who engage deeply, usually during a period of high stress, resolve that acute need within 90 to 120 days and quietly stop opening the app. There is no compelling next step to keep them. Meanwhile well-funded incumbents like Headspace and Calm dominate brand awareness, and a wave of AI-powered mental-health apps is targeting Fable's core users with more personalized experiences. Fable's own data shows its most engaged users, the ones most likely to pay for premium, are also the most likely to leave once the acute phase passes.
+The board has approved budget for one major initiative, and there is real internal disagreement about direction: the clinical team wants structured programs built on cognitive behavioral therapy, the growth team wants a community and social layer, and the content team believes the answer is simply more content. No one has resolved which bet to make or who the product is really for now.
+Your challenge. Fable faces a retention crisis created by its own success: it resolves acute distress so quickly and gently that users stop feeling they need it. You have to define what Fable becomes for people after the acute phase and build a durable engagement model that keeps high-value users invested beyond their first 90 days.
+Your hard constraints:
+
+* Fable cannot reposition as a clinical mental-health platform, for regulatory and liability reasons.
+* The core meditation and sleep content stays the foundation and cannot be replaced.
+* Your competition for the post-acute user is the user deciding they no longer need Fable at all.
+* You have a cross-functional team of 14 across product, design, engineering, content, and clinical advisory.
+* Any solution works within the existing freemium and premium subscription model.
+
+Your goal: Lead the Fable Growth initiative and build a specific, opinionated, board-ready case for where Fable should play, how it can win, and what it will take to get there.
+My roadmap for this quarter:
+| Horizon | Outcome / bet | Owning team(s) | Success signal |
+|---|---|---|---|
+| Now (0 to 3 mo) | Bet 1 (KR3, KR1): We bet a concierge steady plan, a nightly wind-down the content team hand-builds from what helped each person, will show the post-acute need is strong enough that people use it and pay for it, for a small consenting group of churned and current day 60–120 deep users, before we build it for monthly-plan premium users at day 60–120; Bet 2 (KR2): We bet wind-down reminders that land at bedtime in the user's own timezone will make the nightly wind-down a habit instead of a ping people learn to ignore, for post-acute premium users; Bet 3 (KR2): We bet a wind-down that opens in under 2s on 4G will stop people giving up at bedtime before the session starts, for post-acute premium users | Bet 1: Product, Content (hand-building the plans), Clinical advisory, Design; Bet 2: Engineering, Product, Growth (lifecycle messaging); Bet 3: Engineering | Bet 1: of those invited, at least 30% opt in; at least 35% of participants use the wind-down three or more nights a week by week 6; at least 10% of churned participants resume a paid plan at the existing price; and a regulatory opinion confirms self-checks fall outside device rules. If not, stop and rethink before building anything; Bet 2: users with 3+ wind-down nights a week rise from 15% to 22% and opt-outs fall by 30% relative to today, with at least 98% of reminders landing within 15 minutes of bedtime in local time as the delivery guardrail; Bet 3: drop-off between opening the app and starting a session halves, and session starts per reminder rise |
+| Next (3 to 6 mo) | Steady plan v1 for the monthly premium cohort, rules-based from each user's session history, with AI personalisation only once v1 lifts retention. It comes after Now because the concierge test must prove demand and the regulatory opinion must clear first; Self-checks the user starts that bring back what worked. They need a live steady plan to point to, plus clinical sign-off; Consent and privacy model for using wellbeing history at scale. It's needed before personalisation goes beyond the concierge group, which consents person by person in Now; Care-signposting partner live. It must be in place before any self-check can show that someone needs more than Fable; Extend to annual-plan users. Only after the monthly cohort shows a retention lift, because KR1 measures monthly users only | Steady plan v1: Product (lead), Design, Engineering, Content (re-sequencing the library); Self-checks: Product (lead), Clinical advisory, Design; Consent and privacy model: Legal/Privacy (lead), Engineering; Care-signposting partner: Clinical advisory (lead), Product; Annual-plan users: Product (lead), Engineering | Day-180 retention for the monthly cohort is tracking towards 55% (at least 45% by month 6); KR2 at 30%; KR3 at 50% by month 6; at least 40% of plan users start a self-check in their first month; no clinical-safety incidents at the monthly review; consent opt-in at 70% or more |
+| Later (6 to 12 mo) | Bet: evidence that fewer users drop back into acute-level use. A potential moat, not yet one: it needs 12+ months of cohort data against a control group, and a clinically informed, non-diagnostic definition of acute-level use; Bet: a fast route back. When a self-check shows a dip, offer a one-tap return to the content that helped last time, before the need becomes acute again, with signposting to care where needed; Bet: a gated buddy experiment. One-to-one accountability with someone the user already knows, run only if KR1 plateaus once the steady plan is live; Bet: the steady plan as an upgrade path from free. Post-acute freemium users get a taste of the steady plan; Bet: a prevention offer to employers or insurers. Out of scope today. Reconsider only once post-acute retention and willingness to pay are proven in the consumer business and the outcome evidence lands | Acute-level evidence: Data/Insights (lead), Clinical advisory; Route back: Product (lead), Clinical advisory; Buddy experiment: Growth (lead), Product; Upgrade path: Growth (lead), Product; Employer offer: Commercial (lead) | Acute-level evidence: a statistically significant gap in acute re-entry between steady-plan users and a control group; Route back: users return to a session within 48 hours of a dip, and KR3 at 70%; Buddy experiment: pairs retain at least 10 points better than solo users; Upgrade path: free-to-premium conversion from the steady plan at least 2x the baseline; Employer offer: an evidence pack accepted by one pilot buyer |
+The cross-team tension I need to resolve:
+Fable · team of 14
+- You own the core Fable product.
+- PM 1 owns onboarding, and PM 2 owns retention.
+- PM 3 owns the AI check-in layer, which touches both onboarding and retention.
+- The Growth team also has a stake.
+Who owns what, and who decides when they overlap?
+What We Own has three parts: what my team owns, what is explicitly out of scope and which team owns it, and the decisions that need a joint call before anyone acts.
+How We Decide has two parts: who decides feature and scope calls, and how cross-team conflicts escalate, including who makes the final call, how the conflict is raised and within what time.
+Give me the charter in exactly this format, with each part on one line of two or three sentences:
+We own: ...
+Out of scope: ...
+Joint calls: ...
+Who decides scope: ...
+How cross-team conflicts escalate: ...
+```
