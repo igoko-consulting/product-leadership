@@ -210,3 +210,11 @@ Then, in the same chat, because the redraw kept "Relapse-reduction evidence" as 
 ```text
 Rename the "Relapse-reduction evidence" card to "Fewer users back at acute level", so the slide matches the table and avoids clinical wording. Change nothing else.
 ```
+
+### 5. Concierge test · Claude chat only, after Bet 1 changed
+
+Bet 1 swapped its fake door for a concierge test, so only that card on the slide changes.
+
+```text
+Update only the first Now card: Bet 1 is now a concierge test, not a fake door. Title: "Concierge test: steady plan". Teams: Product · Content · Clinical advisory · Design. Signal: ≥30% opt in · ≥35% use it 3+ nights · ≥10% resume paid · regulatory all-clear, else stop. Change nothing else.
+```
