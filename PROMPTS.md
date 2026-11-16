@@ -81,3 +81,48 @@ Now be harsher. What would a competitor’s strategy team say about this plan?
 - **They agreed on the gap that matters:** nothing gives a recovered user a reason to open Fable on an ordinary day, and "we saw what helped" is easier to rebuild than I claimed.
 - **Claude was more useful on the fix:** sleep as the nightly habit Fable already has the content for, outcome evidence as the moat that takes years to copy, and social ties with people users already know, which tests the hard no.
 - **Both read the lack of acquisition as retreat:** the brief points the one initiative at keeping high-value users past day 90, so that criticism is aimed at the brief as much as the plan.
+
+---
+
+## Module 2 · Outcome roadmap
+
+### 1. Roadmap
+
+```text
+You are an experienced product leader helping me build a Now/Next/Later roadmap for my product initiative. Generate a roadmap that is outcome-based, not feature-based. Every item in the Now column must be framed as a strategic bet, not a delivery milestone.
+Here is my context:
+Scenario: Imagine you are a Product Leader at Fable, a mental-wellness app for adults aged 25 to 45. Fable grew quickly on a simple, calming experience of guided meditations, sleep stories, and breathing exercises. At its peak it had 4.2 million active users and a strong reputation as the app that actually helped, the one people reached for during a hard stretch.
+Growth has now flatlined, and the churn analysis shows a counterintuitive cause: the product works too well for its original job. Users who engage deeply, usually during a period of high stress, resolve that acute need within 90 to 120 days and quietly stop opening the app. There is no compelling next step to keep them. Meanwhile well-funded incumbents like Headspace and Calm dominate brand awareness, and a wave of AI-powered mental-health apps is targeting Fable's core users with more personalized experiences. Fable's own data shows its most engaged users, the ones most likely to pay for premium, are also the most likely to leave once the acute phase passes.
+The board has approved budget for one major initiative, and there is real internal disagreement about direction: the clinical team wants structured programs built on cognitive behavioral therapy, the growth team wants a community and social layer, and the content team believes the answer is simply more content. No one has resolved which bet to make or who the product is really for now.
+Your challenge. Fable faces a retention crisis created by its own success: it resolves acute distress so quickly and gently that users stop feeling they need it. You have to define what Fable becomes for people after the acute phase and build a durable engagement model that keeps high-value users invested beyond their first 90 days.
+Your hard constraints:
+
+* Fable cannot reposition as a clinical mental-health platform, for regulatory and liability reasons.
+* The core meditation and sleep content stays the foundation and cannot be replaced.
+* Your competition for the post-acute user is the user deciding they no longer need Fable at all.
+* You have a cross-functional team of 14 across product, design, engineering, content, and clinical advisory.
+* Any solution works within the existing freemium and premium subscription model.
+
+Your goal: Lead the Fable Growth initiative and build a specific, opinionated, board-ready case for where Fable should play, how it can win, and what it will take to get there.
+My strategy (Playing to Win):
+Winning Aspiration: When the hard stretch passes, people keep Fable to hold on to the progress they made, sleeping well and staying steady, because it knows what helped them and has it ready the moment they feel things slipping.
+Where to Play: Adults 25–45 who used Fable heavily through a stressful stretch and still use its sleep content as their need eases (about day 60–120), reached inside the app, premium users first. Out: competing with Headspace and Calm for new users, selling to employers, and anyone needing clinical care, whom we signpost elsewhere.
+How to Win: Fable is the only app that saw what actually helped each person through their hardest stretch. We use that history to fit each person's steady plan, built around a nightly wind-down, from the first night, and a self-check the user starts brings back what worked. Over time, evidence that fewer Fable users drop back into acute-level use becomes the moat rivals can't copy quickly.
+Capabilities Required: Personalisation built in-house from each user's session and self-check history, because that history is the advantage. Steady plans built around a nightly wind-down that re-sequence the existing meditation and sleep library rather than adding new content. Self-checks the user starts, not monitoring, designed with the clinical advisers, with a regulatory opinion before launch and a partner to signpost care. Consent and privacy fit for sensitive wellbeing data.
+Management Systems: Day-180 premium retention for users who engaged deeply in their first 90 days, split by monthly and annual plans and reviewed monthly by cohort. Nights a week with a wind-down session from day 90 to 180. Notification opt-outs as a guardrail. A monthly clinical-safety review. A yearly read of users dropping back into acute-level use. A quarterly board review against the OKRs.
+My OKRs:
+Objective: Make Fable the app people keep after the hard stretch passes.
+KR1: Monthly-plan premium users who engaged deeply in their first 90 days who are still subscribed at day 180: 35% → 55%.
+KR2: Those users using a sleep or wind-down session at least three nights a week from day 90 to 180: 15% → 40%.
+KR3: Those users who say in an in-app survey at day 180 that Fable helps them stay steady without feeling dependent on it: 40% → 70%.
+My three rocks for this quarter:
+1. Add AI-generated daily check-in prompts personalized to user history (supports KR3). Built as the self-check and steady plan the user starts, drawing on what helped them before, so they feel steady through their own plan rather than chased by Fable; a fake-door test with churned deep users comes first, and a regulatory opinion before launch.
+2. Fix the notification system (wrong times, timezone bug) (supports KR2). The nightly wind-down reminder has to land at bedtime in the user's own timezone or it trains people to ignore it, and wrong-time pings are what drive the opt-outs the guardrail watches.
+3. Reduce app load time from 4.2s to under 2s on 4G (supports KR2). At bedtime a 4.2-second load is a reason to give up; under 2 seconds keeps the wind-down effortless for every user.
+Please generate a Now/Next/Later roadmap with the following:
+Now: up to three items, each a one-line outcome-based bet linked to one of my OKRs, in the format "We bet [action] will [outcome] for [who]"
+Next: up to five items, each with a one-line reason it comes after Now
+Later: the remaining strategic items that matter but don't have people or budget yet, labeled as bets, not commitments
+Give me the roadmap as one markdown table with these columns: | Horizon | Outcome / bet | Owning team(s) | Success signal |
+Use one row per horizon: "Now (0 to 3 mo)", "Next (3 to 6 mo)" and "Later (6 to 12 mo)". If a horizon has more than one bet, put them in the same cell, separated by semicolons.
+```
