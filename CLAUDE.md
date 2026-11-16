@@ -4,7 +4,7 @@ Fable Growth and Meridian Foundations are fictional course material from Product
 
 # What this repo is
 
-Martin Cook's final project for the certification: one deliverable per module (M1–M5), then a final presentation generated in Module 6 by the Final Project Deliverables Builder, which reads the committed files from `main`. The repo is public so the instructor can open it. It was made from the course template; the builder only needs the folder and file names to match it, not the repo name.
+Martin Cook's final project for the certification: one deliverable per module (M1–M5), then a final presentation generated in Module 6 by the Final Project Deliverables Builder, which reads the committed files from `main`. The scenario is **Fable Growth** (B2C mental-wellness app), chosen in Module 1 and kept to Module 6. The repo is public so the instructor can open it. It was made from the course template; the builder only needs the folder and file names to match it, not the repo name.
 
 This folder, `~/Projects/product-leadership`, is the course's only home. It sits outside Dropbox (git and file sync fight over `.git`) and outside every other project. Course PDFs stay in `~/Library/CloudStorage/Dropbox/Study/Product School/Product Leadership/` and are read from there, never copied in.
 

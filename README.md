@@ -1,6 +1,6 @@
 # Product Leadership: Final Project, by Martin Cook
 
-> My final project for Product School's **Product Leadership** certification. One scenario taken from a board-ready product strategy to a complete business case across six in-class labs.
+> My final project for Product School's **Product Leadership** certification. One scenario, **Fable Growth** (B2C mental wellness), taken from a board-ready product strategy to a complete business case across six in-class labs.
 
 **How to read this repo:** each module folder holds its deliverable and a `NOTES.md` with the module's ideas and my takeaways. `PROMPTS.md` keeps every lab prompt, run word for word in GPT-6 and Claude, and how the replies differed; each module's `ai-replies/` folder holds both models' replies as evidence.
 
