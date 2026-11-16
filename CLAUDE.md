@@ -14,6 +14,7 @@ The builder pulls each deliverable by path and fills a card per field. A card re
 - Keep the five paths, and the template's headings, table rows and bold labels, word for word.
 - Keep each answer on one line, in the cell or blockquote line the template gives it.
 - Extra sections go after the template's last section; extra files are fine.
+- Verified: Martin pulled Module 1 into the builder from the public repo on 16 Nov 2026 and it came through fine, with the extra links after section 4 in place. Re-test after each module.
 
 Cards it fills:
 - **M1** `01-strategy/strategy-and-okrs.md`: where you play and how you win (aspiration, where to play, how to win), the hard no, the objective and key results.
