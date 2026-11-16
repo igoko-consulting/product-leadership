@@ -159,3 +159,16 @@ Here is my final roadmap:
 ```text
 Turn the final roadmap above into a simple visual. Use three columns labeled Now, Next and Later. Show each bet as a card with its owning team and success signal underneath. Use large, readable text and a plain background, so it works on a presentation slide.
 ```
+
+**How the two visuals compared** · [GPT-6's](02-roadmap/ai-replies/3-visual-gpt6.png) · [Claude's](02-roadmap/ai-replies/3-visual-claude.pdf)
+
+| Point | GPT-6 | Claude |
+|---|---|---|
+| Format | Image with coloured column headers, large text and icons | One-slide PDF with a headline, a key, KR tags on each Now card and dashed cards for unfunded Later bets |
+| Coverage | 12 of 13 bets: the employer or insurer offer is missing | All 13 bets |
+| Owners | Gives each Next and Later card its own team list, which the table never assigned | The same, with shorter lists |
+| Signals | Shortened and faithful | Shortened and faithful, keeping "else stop" on Bet 1 |
+
+- **Claude's is the slide for Module 6:** it is complete, its headline states the objective, and it shows which bets are unfunded.
+- **GPT-6's reads better from a distance** but drops a bet, so it can't stand in for the table.
+- **Both invented per-card owners** for Next and Later, where the table lists one set of teams per horizon. Check them before presenting.
