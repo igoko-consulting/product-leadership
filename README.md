@@ -48,7 +48,7 @@ Fable bets its one initiative on the people it helped through a hard stretch: a 
 | **M3** Team charter | PM 2 owns the post-acute experience and KR1–KR3; PM 1 owns days 0 to 60; PM 3's AI layer is a shared platform whose output after day 60 is PM 2's call; the bedtime reminder is shared with Growth; Fable never starts a check-in. Conflicts go to a one-page note, then the Fable product lead, or the CPO when Growth is a party. | M4 writes a hard no to the Growth lead, the other side of this tension. |
 | **M4** Stakeholder message | A hard no to the Growth lead: no community and social layer or progress sharing. What stays open is the bedtime reminder Growth co-owns; the only social work is a buddy test led by PM 2 and co-designed with Growth, run only if day-180 retention plateaus; and Growth gets a referral invite of its own that shares nothing about anyone's use. | M5 builds the business case for one Module 2 rock. |
 | **M5** Business case | Rock 1, the steady plan and self-check: fund a one-quarter concierge test (about $0.6M) and the build only if it passes. About $155 of margin per extra user kept to day 180; a year of cohorts earns about $7.4M of lifetime margin, 3.2x its cost, with about $0.3M of cash in year one and break-even around month 22; the kill criterion matches Now Bet 1's stop rule, returns about $1.7M to the board and adds a build-stage line. | M6 pulls all five deliverables into the final presentation. |
-| **M6** Skill file and final presentation | Practice: my leadership standards as a skill file for my real role, each one sharpened by a decision made here (the reopen signal, the written no, leading with risk, a stop line only a new business case lifts, a second model as reviewer). The final presentation went through two board reviews in both models before submission; the second found the last contradiction, and 15 fixes landed across Modules 1, 2 and 5. | The builder pulls the five deliverables; the reflection draws on each module's `NOTES.md`. |
+| **M6** Skill file and final presentation | Practice: my leadership standards as a skill file for my real role, each one sharpened by a decision made here (the reopen signal, the written no, leading with risk, a stop line only a new business case lifts, a second model as reviewer). The final presentation went through three board reviews in both models before submission; they found one arithmetic gap and two contradictions, and 16 fixes landed across Modules 1, 2 and 5 and the pitch. | The builder pulls the five deliverables; the reflection draws on each module's `NOTES.md`. |
 
 **Open items carried forward:** before presenting, replace the business case's estimates with Fable's own data, starting with churn after day 180 and the size of the monthly deep-user cohort, then the monthly versus annual plan mix and baselines for the roadmap's placeholder thresholds; still unsaid, the Module 2 hard no to the CEO's therapist-matching tier; optional, the charter's How We Work part.
 
@@ -65,7 +65,7 @@ Fable bets its one initiative on the people it helped through a hard stretch: a 
 
 ## How to submit
 
-- In Module 6, generate the presentation in the **[Final Project Deliverables Builder](https://product-school-platform.github.io/ps-content-library/certifications/plc/2026.1/Modules/Final%20Project%20Deliverables%20Builder.html)**. It pulls the deliverables from this repo; then I add my reflection and download `final-presentation.html`, and commit it to the root of this repo.
+- The presentation was generated in the **[Final Project Deliverables Builder](https://product-school-platform.github.io/ps-content-library/certifications/plc/2026.1/Modules/Final%20Project%20Deliverables%20Builder.html)**, which pulls the deliverables from this repo; the reflection was typed in, and the download is committed to the root as [`final-presentation.html`](final-presentation.html).
 - Submit **both** the **repo URL** and the **presentation** on the Learning Platform within **7 days** of the cohort ending.
 
 ## Repo structure
@@ -81,7 +81,7 @@ product-leadership/
 ├── 02-roadmap/
 │   ├── outcome-roadmap.md                 ← M2: trade-off memo + outcome roadmap   ★ Deliverable 2
 │   ├── NOTES.md                           ← M2 ideas, takeaways and the scored backlog
-│   └── ai-replies/                        ← both models' replies, and the roadmap visual for Module 6
+│   └── ai-replies/                        ← both models' replies, and the roadmap visual
 ├── 03-team-charter/
 │   ├── team-charter.md                    ← M3: What We Own + How We Decide         ★ Deliverable 3
 │   ├── NOTES.md                           ← M3 ideas, takeaways and the charter's decisions

@@ -22,7 +22,7 @@ Cards it fills:
 - **M3** `03-team-charter/team-charter.md`: What We Own; How We Decide.
 - **M4** `04-stakeholder-message/stakeholder-message.md`: the hard no and stakeholder; the message.
 - **M5** `05-business-case/business-case.md`: the bet; assumptions ranked; per-customer return and volume target; the kill criterion (metric, threshold, deadline, consequence).
-- **M6**: cover title and one-line pitch, plus friction, key learnings and aha moment, typed into the builder. Collect material for them as each module ends, in its `NOTES.md`, and keep the M2 roadmap visual for the builder.
+- **M6**: cover title and one-line pitch, plus friction, key learnings and aha moment, typed into the builder. Collect material for them as each module ends, in its `NOTES.md`. The builder has no image field, so the M2 roadmap visual stays in the repo.
 
 # The course thread
 
