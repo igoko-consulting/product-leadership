@@ -67,6 +67,7 @@ Fable bets its one initiative on the people it helped through a hard stretch: a 
 
 - The presentation was generated in the **[Final Project Deliverables Builder](https://product-school-platform.github.io/ps-content-library/certifications/plc/2026.1/Modules/Final%20Project%20Deliverables%20Builder.html)**, which pulls the deliverables from this repo; the reflection was typed in, and the download is committed to the root as [`final-presentation.html`](final-presentation.html).
 - Submit **both** the **repo URL** and the **presentation** on the Learning Platform within **7 days** of the cohort ending.
+- **Submitted 17 Nov 2026** by email to the course tutor, with the repo URL and a browser link to the presentation, since Final Project Submission couldn't be found on the platform. Mark pending.
 
 ## Repo structure
 
