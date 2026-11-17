@@ -619,12 +619,20 @@ End with one line: "Ready to submit" or "Needs another pass", and why.
 - **Claude found the one new contradiction:** Where to play says "reached inside the app", but Bet 1 invites 500 churned users, who can only be reached by email, a channel the charter gives to Growth.
 - **Diminishing returns:** most of what's left is how the presentation reads, and the builder causes part of it by laying the roadmap table out column by column. GPT-6's remaining points are answered in the deliverables (the moat is called potential) or need Fable's own data.
 
-### 4. Board review of the submitted presentation · GPT-6 only
+### 4. Board review of the submitted presentation · new memory-off chats in both models
 
-The same builder prompt, filled from the submitted [final-presentation.html](final-presentation.html), so its text matches that file rather than being repeated here. A last check, run in one model, under one rule: act only on a contradiction or an arithmetic error.
+The same builder prompt, filled from the submitted [final-presentation.html](final-presentation.html), so its text matches that file rather than being repeated here. A last check under one rule: act only on a contradiction or an arithmetic error.
 
-**What GPT-6 said** · reply, word for word: [4-board-review-final.md](06-final-presentation/ai-replies/4-board-review-final.md)
+**How the two replies compared** · both replies, word for word: [4-board-review-final.md](06-final-presentation/ai-replies/4-board-review-final.md)
 
-- **No contradiction or arithmetic error, so no change:** it asked for the $7.4M chain to be reconciled, but it checks: 20,000 × 20 points = 4,000 a cohort; 4,000 × about $155 × 12 cohorts ≈ $7.4M; about 18.7 months × $8.40 ≈ $157 a user.
-- **It missed what the file already says:** it called the 45% line an unexplained tension, but the kill criterion reads "below 45% (10 points of lift, about 1.6x; break-even is 41%)".
-- **The rest repeats the second round:** Later dilutes the bet, the inputs are estimates, and an evidence-to-investment bridge, each answered or set aside there. The verdict stays "Needs another pass", as a review prompt's usually does.
+| Point | GPT-6 | Claude |
+|---|---|---|
+| Verdict | Needs another pass: the financial case needs reconciling | Needs another pass: the pitch contradicts the hard no, and the kill criterion stops too much |
+| Strongest part | Seeing that some churn is healthy | The charter |
+| Numbers | Asks for the $7.4M chain to be reconciled | Checks it: $7.4M, 2.3x at 70%, break-even near 41% |
+| Contradiction found | None | The pitch's "the community layer waits" against Module 1's "will not build" |
+| Other points | The 45% line unexplained (it is explained); Later dilutes the bet; an evidence-to-investment bridge | A regulatory no on self-checks stops the whole plan; the buddy trigger only works between 45% and 55%; PM 2's load; the upgrade and annual items have no KR |
+
+- **Claude found the one real contradiction left:** the pitch, the first line a board reads, says the community layer "waits", while Module 1, the trade-off memo and the Growth message all say it won't be built. The same sentence is the README's strategy sentence.
+- **The arithmetic holds:** Claude checked it, and GPT-6's call to reconcile it found no error. GPT-6 also missed the 45% line's explanation, which is in the file.
+- **The kill-criterion points are judgement, not error:** a regulatory no on a product that changes that much needs a new business case, which is what the stop line asks for; and the Growth message says the buddy test runs "only if" retention is flat, a condition, not a promise.
