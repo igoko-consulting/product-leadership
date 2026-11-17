@@ -48,6 +48,7 @@ Fable bets its one initiative on the people it helped through a hard stretch: a 
 | **M3** Team charter | PM 2 owns the post-acute experience and KR1–KR3; PM 1 owns days 0 to 60; PM 3's AI layer is a shared platform whose output after day 60 is PM 2's call; the bedtime reminder is shared with Growth; Fable never starts a check-in. Conflicts go to a one-page note, then the Fable product lead, or the CPO when Growth is a party. | M4 writes a hard no to the Growth lead, the other side of this tension. |
 | **M4** Stakeholder message | A hard no to the Growth lead: no community and social layer or progress sharing. What stays open is the bedtime reminder Growth co-owns; the only social work is a buddy test led by PM 2 and co-designed with Growth, run only if day-180 retention plateaus; and Growth gets a referral invite of its own that shares nothing about anyone's use. | M5 builds the business case for one Module 2 rock. |
 | **M5** Business case | Rock 1, the steady plan and self-check: fund a one-quarter concierge test (about $0.6M) and the build only if it passes. About $155 of margin per extra user kept to day 180; a year of cohorts earns about $7.4M of lifetime margin, 3.2x its cost, with about $0.3M of cash in year one and break-even around month 22; the kill criterion matches Now Bet 1's stop rule, returns about $1.7M to the board and adds a build-stage line. | M6 pulls all five deliverables into the final presentation. |
+| **M6** Skill file and final presentation | Practice: my leadership standards as a skill file for my real role, each one sharpened by a decision made here (the reopen signal, the written no, leading with risk, a stop line only a new business case lifts, a second model as reviewer). The final presentation is still to come. | The builder pulls the five deliverables; the reflection draws on each module's `NOTES.md`. |
 
 **Open items carried forward:** before presenting, replace the business case's estimates with Fable's own data, starting with churn after day 180 and the size of the monthly deep-user cohort, then the monthly versus annual plan mix and baselines for the roadmap's placeholder thresholds; still unsaid, the Module 2 hard no to the CEO's therapist-matching tier; optional, the charter's How We Work part.
 
@@ -94,6 +95,8 @@ product-leadership/
 │   ├── NOTES.md                           ← M5 ideas, the funding decision and how the case was built
 │   └── ai-replies/                        ← both models' CFO stress-tests, word for word
 ├── 06-final-presentation/
-│   └── ai-replies/                        ← both models' drafts of my leadership skill file (practice)
+│   ├── leadership-skill-file.md           ← M6 practice: my leadership standards as a skill file any AI tool can load
+│   ├── NOTES.md                           ← M6 ideas, takeaways and how the skill file was built
+│   └── ai-replies/                        ← both models' drafts of the skill file, word for word
 └── final-presentation.html                ← M6: the final presentation, from the builder  ★ Deliverable 6
 ```
