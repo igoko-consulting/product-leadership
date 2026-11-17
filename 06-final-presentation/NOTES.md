@@ -67,7 +67,18 @@ The builder pulls the five deliverables from this repo; the cover and the three 
 
 - **Working title, the Module 1 objective (65%):** "Fable Growth: the app people keep after the hard stretch". The builder's example title used "crisis", which this repo never uses in its own words. Missed: it names the goal, not the bet; the pitch carries the bet.
 - **One-line pitch, the README's strategy sentence (70%):** "Fable bets its one initiative on the people it helped through a hard stretch: a personal nightly wind-down keeps them once they recover, and the community layer waits." Missed: it leaves out that the bet is tested by hand before it's built, which is what makes it fundable.
-- **Name and cohort:** "Martin Cook · Product Leadership 2026.1 · November 2026". Missed: the cohort's name on the platform may differ from the course code.
+- **Name and cohort:** "Martin Cook | Product Leadership - Self Study | Nov '26", as typed in the builder. Missed: my draft used the course code, 2026.1, which the platform doesn't show.
 - **Friction, testing demand without harming the people being tested (55%):** the first plan was a fake door, which would have disappointed vulnerable users and used their data without consent; the concierge test replaced it, with hand-built steady plans for a small group who agreed to take part and a stop rule that returns the budget to the board. Missed: keeping five modules consistent was the other real friction, since tightening Module 5's kill line quietly broke Module 3's charter.
 - **Key learnings (65%):** lead a hard no with the risk to the people we serve, not capacity, because a capacity reason invites an offer of capacity; write the kill line before a bet starts, with a metric, threshold, deadline and consequence nobody who benefits can lift; and when one decision changes, read across every decision that rests on it, with a second model as a cheap reviewer. Missed: testing demand the cheapest honest way, and defining every metric by its cohort and read date, are habits this course built too.
 - **Aha moment, healthy churn (60%):** when both models asked whether people who have recovered want an ongoing relationship at all, I saw that some of Fable's churn is healthy. The strategy moved from spotting dips to a nightly wind-down people choose, and KR3 now asks whether users feel steady without feeling dependent, so Fable can't win by keeping people anxious. Missed: the sharper line was Module 4's, that a capacity reason invites an offer of capacity, but it changed how I communicate, not the strategy.
+- **Board review of the first download, both models said needs another pass:** the builder's own review prompt, run in both models ([replies](ai-replies/2-board-review.md), [comparison](../PROMPTS.md#2-board-review-of-the-presentation--new-memory-off-chats-in-both-models)). Both found the strategy clear and the refusals the strongest part. Claude found that "at least 30% of at least 400 invited" guaranteed only 120 participants, not the 150 churned ones the kill criterion needs, a gap every earlier review had missed. Both misread the $155 per user, because the one-line field compressed the Section 5 working. Eight fixes followed:
+  - the per-customer wording;
+  - separate invite minimums and a 15-point gap over the holdout for the concierge test;
+  - KRs named by cohort;
+  - Rock 1 as a reframe of backlog #6;
+  - the employer offer cut from Later;
+  - the age band dropped;
+  - a number for Bet 3;
+  - the 2.3x at 70% of the lift moved into assumption 2.
+
+  Missed: the builder flattens the roadmap table column by column, so each Now bet's owners and signal sit apart from it in the presentation; neither model mentioned it.
