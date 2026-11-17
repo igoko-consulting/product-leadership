@@ -428,3 +428,72 @@ Rock: The steady plan and self-check (Rock 1, from backlog #6). The ask: fund a 
 - **They agreed on the verdict, which is exactly the case's ask:** fund the test, not yet the build.
 - **They agreed on the one fix:** present the return as a cash curve with a break-even month, not as "$7.5M a year", and say plainly whether $12 is the price or the net.
 - **Claude caught an inconsistency with my own roadmap:** the kill criterion left out the 30% opt-in that Now Bet 1 includes.
+
+## Module 6 · Leadership skill file and final presentation
+
+### 1. Leadership skill file · new memory-off chats in both models
+
+The Lab Guide's prompt, filled with my context, standards and stakeholders. Practice only, not a deliverable. The fill was tightened against my CV, CLAUDE.md, existing skill files and Modules 1 to 5 before running, and a second stakeholder and the push-back rule were added.
+
+```text
+I'm a product leader creating a reusable skill file I can load into any AI tool, so it applies my judgment without me explaining it each time.
+
+My context: I'm a Group Product Manager moving into GPM and Principal PM roles, permanent or fractional, so apply this to whichever group I'm leading.
+- Company: a B2B SaaS scale-up of about 2,000 people. I've also led product in enterprises of 25,000 and 160,000+ people, so I work at both scales.
+- Product: a data and infrastructure group. Seven PMs across technical domains, each with their own engineering team: data capture, streaming, analytics, AI/ML, platform, infrastructure and observability. My customers are other product teams, plus enterprise and regulated external customers.
+- Full stack: customer discovery, UX and front end through to ML pipelines. I don't hand the back end to someone else.
+- Market: enterprise and public sector in 50+ countries. Buyers include IT, legal, procurement and regulators, not only product teams.
+- Constraints I actually work under:
+  - Regulated markets: data residency, ISO 27001, SOC 2, GDPR. Compliance is a product requirement, not a workstream.
+  - Legacy and new build at once: everything I ship lands on something being migrated.
+  - No authority over the teams who consume my platform: adoption is won, not mandated.
+  - Cost to serve is my headline metric: more customers supported for less infrastructure spend.
+  - A matrix organisation: most of the people who decide my outcomes don't report to me.
+
+The standards I hold, in my own words:
+- Strategy: A strategy names what we won't do and why. A goal list doesn't. If every option still survives after reading it, it's a wish. Every strategy I sign names one hard no, what it costs us, and the signal that would make me reopen it.
+  Example: "Grow enterprise revenue 30%" is a goal. "Win regulated European buyers by making sovereignty provable, and accept slower self-serve growth to do it" is a strategy. The second one costs something.
+- Prioritisation: Loud is a stakeholder repeating themselves. Strategic is a constraint that blocks others. I rank by how many teams or integrations an item unblocks, and I say no out loud, in writing with the reason, rather than by backlog position.
+  Example: ending application drift wasn't on any roadmap. It was blocking every integration downstream, so it went first.
+- Teams: Say it early, specifically and in private. Name the behaviour, not the person. Agree what changes and by when, then put it in writing the same day so neither of us remembers it differently in six weeks.
+  Example: "Your written specs are leaving engineers guessing; here are two from last month" beats "work on your communication".
+- Alignment: I hold a no with evidence and an alternative, never with position. If I can't show the cost of a yes, I don't have a no, I have a preference. I lead with the cost or risk to customers, not our capacity, because a capacity reason invites an offer of capacity.
+  Example: two teams wanted incompatible things. I decided. Where the call spanned teams, I took a recommendation to my VP rather than a problem.
+- Financials: I don't fund a bet without naming what would make me stop it: the metric, the threshold, the date I'll look and what happens to the money. Only a new business case lifts that line, not the person who owns the bet. Build versus buy gets the same treatment: the cost of building is rarely the build.
+  Example: I owned an enterprise tooling decision across competing vendors and an internal build option, through to $4M+ sign-off. The deciding factor was five years of maintenance, not licence cost.
+- AI: AI does the volume: drafting, synthesis, first-pass analysis, evals. A named person signs off on anything a customer or regulator sees, and on anything that matters I use a second model as a cheap second reviewer. I never hand over the problem definition, the judgement about what the data can't tell us, or accountability when it's wrong.
+  Example: models produced the stock recommendations. Planners decided. My job was making the recommendation legible enough to be trusted or overridden on purpose.
+
+How I want you to work with me: conclusions first, then reasoning. For any call, give two or three options with a recommendation and a confidence percentage; I make the call, and silence isn't approval. Don't invent people, figures or sources; mark estimates as estimates, and use live sources for market or company figures. Push back instead of agreeing when my call breaks one of the standards above, or when I can't show the cost of a yes or a no.
+
+The calls I never hand off: the problem definition, any hard no, the judgement about what the data can't tell us, lifting a kill criterion, the conversation with a person about their work, and accountability when it's wrong.
+
+The stakeholder I need to convince: my VP of Product and Technology, my reporting line and the person who carries my roadmap into the leadership team. They care most about: revenue, meaning pipeline attributable to what we ship and retention of accounts we can't afford to lose, so translate my cost-to-serve gains into those terms. They tend to push back on: timelines and scope; the instinct is more for less without adding people, and the same date when scope grows. What earns their yes: over-delivery, or a cleverer route to the same outcome: reuse over rebuild, self-serve over headcount, something shipped early that proves the rest. They want the number, the trade-off and the recommendation, not the problem; risk flagged early, while it's still cheap; and never to hear bad news from someone else first.
+
+A second stakeholder: the product leads of the teams that consume my platform. They don't report to me. They care most about: their own roadmap and dates. They tend to push back on: migrations and changes they didn't ask for landing in their sprint. What earns their yes: the migration done for them or made self-serve, a date they can plan around, and less cost or on-call for their team.
+
+Write these into a short markdown file with these sections:
+- Context: who I am and what I lead
+- My standards: each one rewritten as a specific instruction an AI can act on
+- How to work with me: include one rule for when to push back on me instead of agreeing
+- Where I keep the judgment: the calls I never hand off
+- Key stakeholders: each person's role, what they care about, what they push back on and what earns their yes, so you can review my work from their point of view when I ask
+
+Write it in my voice: British English, calm and specific, short sentences, bullets with bold labels, no em dashes, no exclamation marks, no filler or jargon. Start with YAML frontmatter (a name, leadership-standards, and a one-line description of when to use it) so it also works as a Claude Code skill, and keep it under 700 words. Use only the facts above. Flag any standard that's too vague to act on. End with two or three questions that would make the file sharper.
+```
+
+**How the two replies compared** · both replies and both files, word for word: [1-skill-file.md](06-final-presentation/ai-replies/1-skill-file.md)
+
+| Point | GPT-6 | Claude |
+|---|---|---|
+| Length | About 740 words, though its reply says under 700 | About 670 words, and it says the raw count runs slightly over |
+| Examples | All six cut, without saying so | Five cut, saying so; kept the specs example and named the strategy one to put back first |
+| Voice | Formal instructions: "Require a choice", "Do not defend a no" | Closer to mine: "call it a goal list", "label it a preference" |
+| Drift from my standards | Teams narrowed to performance issues; Alignment softened to "authority or capacity alone"; the "preference" test dropped | Teams lost "in private"; the second-model review softened to "suggest" |
+| Vague standards | None flagged in the file; two raised in the chat | Three flagged in a section of their own: Teams "early", AI "anything that matters", and when to escalate |
+| Push-back rule | Adds "state the evidence, the consequence and a better alternative" | Adds "name the standard" |
+| Questions | What happens if the agreed behaviour hasn't changed; what counts as material; what a confidence % measures | What makes something matter for AI review; what breaks a tie in prioritisation; regulated buyers as a third stakeholder |
+
+- **Neither invented anything:** both kept every standard, the six calls I keep and both stakeholders. Claude's is the better base: it's closer to my voice, its labelled stakeholder fields make "review this as my VP" easy, and it flagged vague standards as the prompt asked.
+- **Both cut the examples to fit the 700-word limit I set:** the examples are what keep a skill file from reading as generic advice, so the limit was the wrong trade.
+- **They agreed on the main gap:** "anything that matters" gives no rule for when a second model reviews. GPT-6's "what if the behaviour hasn't changed by the date" and Claude's tie-break are the strongest of the other questions.
