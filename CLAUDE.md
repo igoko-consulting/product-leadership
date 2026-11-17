@@ -14,7 +14,7 @@ The builder pulls each deliverable by path and fills a card per field. A card re
 - Keep the five paths, and the template's headings, table rows and bold labels, word for word.
 - Keep each answer on one line, in the cell or blockquote line the template gives it.
 - Extra sections go after the template's last section; extra files are fine.
-- Not yet tested in the builder: Martin shared the repo link directly for Module 1, not through the builder. Test one pull before Module 6, ideally once Modules 1 and 2 are both in. The repo is the deliverable; the Lab Guide's own save, copy and download buttons are only for editing files in GitHub's web page, so they aren't needed here.
+- Tested in Module 6: the pull filled every card. The builder only fills empty cards, so press Reset before pulling again after a repo change, and retype the six typed fields. It lays the roadmap table out column by column, so the submitted card was regrouped by bet by hand; typed line breaks survive into the download. The Lab Guide's own save, copy and download buttons are only for editing files in GitHub's web page, so they aren't needed here.
 
 Cards it fills:
 - **M1** `01-strategy/strategy-and-okrs.md`: where you play and how you win (aspiration, where to play, how to win), the hard no, the objective and key results.
