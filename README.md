@@ -8,7 +8,7 @@
 
 ## The strategy in one sentence
 
-Fable bets its one initiative on the people it helped through a hard stretch: a personal nightly wind-down keeps them once they recover, and the community layer waits.
+Fable bets its one initiative on the people it helped through a hard stretch: a personal nightly wind-down keeps them once they recover, and it will not build a community layer.
 
 ## The scenario: Fable Growth
 
