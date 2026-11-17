@@ -82,3 +82,13 @@ The builder pulls the five deliverables from this repo; the cover and the three 
   - the 2.3x at 70% of the lift moved into assumption 2.
 
   Missed: the builder flattens the roadmap table column by column, so each Now bet's owners and signal sit apart from it in the presentation; neither model mentioned it.
+- **Board review of the revised download, still needs another pass, then stopped:** the same prompt on the second download ([replies](ai-replies/3-board-review-revised.md), [comparison](../PROMPTS.md#3-board-review-of-the-revised-presentation--new-memory-off-chats-in-both-models)). The first round's fixes held, and Claude checked that the numbers add up. Claude found one new contradiction, churned users can't be reached "inside the app", and most of the rest was how the roadmap reads. Seven fixes followed:
+  - Growth's invite email named in Where to play and Bet 1;
+  - the aspiration's "the moment they reach for it";
+  - Next's measures labelled per item;
+  - the roadmap card regrouped by bet in the builder;
+  - course references removed;
+  - the 45% line explained as about 1.6x against break-even at 41%;
+  - a holdout that also gets the reminder and load-time fixes.
+
+  Missed: a third round would mostly find matters of taste, so reviewing stopped here; PM 2's load and the credibility of estimated inputs stay open, the second answered only by Fable's own data.

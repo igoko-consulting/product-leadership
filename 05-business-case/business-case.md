@@ -11,7 +11,7 @@
 ## 2. The assumptions, ranked
 
 1. People who have recovered want an ongoing plan and will keep paying for it (the concierge test's opt-in and paid return).
-2. A rules-based steady plan keeps most of the concierge test's lift once it's automated. The hand-built plans set the upper limit, so the concierge group is measured against a matched holdout; if automation keeps only 70% of the lift, the case still returns about 2.3x (Section 5).
+2. A rules-based steady plan keeps most of the concierge test's lift once it's automated. The hand-built plans set the upper limit, so the concierge group is measured against a matched holdout that also gets the reminder and load-time fixes; if automation keeps only 70% of the lift, the case still returns about 2.3x.
 3. About 20,000 monthly-plan deep users reach day 90 each month, so a 20-point lift means about 4,000 more paying at day 180 per cohort (est.; checkable in Fable's data now).
 
 ## 3. The expected return
@@ -22,7 +22,7 @@
 
 ## 4. The kill criterion
 
-> By the end of month 3, if fewer than 30% of either invited group opts in (at least 500 churned and 400 current users), fewer than 35% of participants use the wind-down three or more nights a week by week 6 or that share is less than 15 points above a matched holdout, fewer than 10% of the 150 or more churned participants resume paying at the existing price, or the regulatory opinion doesn't clear self-checks, we stop the steady plan build, keep only the bedtime reminder and load-time fixes, and return about $1.7M of Next and Later budget to the board; any further investment needs a new business case. If the build goes ahead and day-180 retention is below 45% for the first two monthly cohorts to reach day 180 on the steady plan, the same applies to the remaining budget.
+> By the end of month 3, if fewer than 30% of either invited group opts in (at least 500 churned and 400 current users), fewer than 35% of participants use the wind-down three or more nights a week by week 6 or that share is less than 15 points above a matched holdout, fewer than 10% of the 150 or more churned participants resume paying at the existing price, or the regulatory opinion doesn't clear self-checks, we stop the steady plan build, keep only the bedtime reminder and load-time fixes, and return about $1.7M of Next and Later budget to the board; any further investment needs a new business case. If the build goes ahead and day-180 retention is below 45% (10 points of lift, about 1.6x; break-even is 41%) for the first two monthly cohorts to reach day 180 on the steady plan, the same applies to the remaining budget.
 
 ## 5. The model behind it
 
