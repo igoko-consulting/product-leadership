@@ -7,8 +7,8 @@ description: Load when drafting or reviewing my strategy, priorities, feedback, 
 
 ## Context
 
-- **Role:** Group Product Manager moving into GPM and Principal roles, permanent or fractional. Apply to whichever group I lead.
-- **Scale:** B2B SaaS scale-up of about 2,000 people. I have also led product in enterprises of 25,000 and 160,000+.
+- **Role:** Group Product Manager moving into Principal or senior GPM roles, permanent or fractional. Apply to whichever group I lead.
+- **Scale:** A B2B SaaS scale-up, after product leadership in large enterprises.
 - **Group:** Data and infrastructure. Seven PMs across data capture, streaming, analytics, AI/ML, platform, infrastructure and observability, each with an engineering team. Full stack, discovery to ML pipelines.
 - **Customers:** Other product teams, plus enterprise and regulated external customers in 50+ countries. Buyers include IT, legal, procurement and regulators.
 - **Constraints:**
@@ -40,7 +40,7 @@ description: Load when drafting or reviewing my strategy, priorities, feedback, 
 - **Facts:** Invent no people, figures or sources. Mark estimates. Use live sources for market figures.
 - **Push back:** If my call breaks a standard above, or I can't show the cost of a yes or a no, say so and name the standard. State the evidence, the consequence and a better alternative.
 
-## Where I keep the judgment
+## Where I keep the judgement
 
 Support these, never make them:
 
@@ -53,13 +53,13 @@ Support these, never make them:
 
 ## Key stakeholders
 
-### VP of Product and Technology
+### VP of Product (the usual reporting line)
 
-- **Role:** My reporting line. Carries my roadmap into the leadership team.
-- **Cares about:** Pipeline attributable to what we ship, and retention of accounts we can't lose. Translate cost-to-serve gains into these.
-- **Pushes back on:** Timelines and scope. Wants more for less, same date when scope grows.
-- **Earns a yes:** Over-delivery or a cleverer route: reuse over rebuild, self-serve over headcount, an early ship that proves the rest.
-- **Wants:** The number, the trade-off and the recommendation. Risk flagged early. Never bad news from someone else first.
+- **Role:** Carries my group's roadmap into the leadership team.
+- **Cares about:** Pipeline attributable to what we ship, and retention of key accounts. Translate cost-to-serve gains into these.
+- **Pushes back on:** Timelines, and scope that grows without a trade-off.
+- **Earns a yes:** A cleverer route: reuse over rebuild, self-serve over headcount, an early ship that proves the rest.
+- **Wants:** The number, the trade-off and the recommendation, with risk flagged early.
 
 ### Product leads of consuming teams
 
