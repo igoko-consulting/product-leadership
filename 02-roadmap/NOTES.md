@@ -1,6 +1,6 @@
-# Module 2 notes: Turn Your Strategy into an Outcome Roadmap
+# Module 2 notes: outcome roadmap
 
-Session 2, 16 Nov 2026. Sources: Module 2 slides and Lab Guide. Builds on: [Module 1's strategy and OKRs](../01-strategy/strategy-and-okrs.md). Output: [outcome-roadmap.md](outcome-roadmap.md).
+16 Nov 2026. Sources: module 2 of Product School's Product Leadership course. Builds on: [Module 1's strategy and OKRs](../01-strategy/strategy-and-okrs.md). Output: [outcome-roadmap.md](outcome-roadmap.md). Each point ends with my own critique, marked "Missed:".
 
 ## Rocks, pebbles and sand
 
@@ -46,7 +46,7 @@ Session 2, 16 Nov 2026. Sources: Module 2 slides and Lab Guide. Builds on: [Modu
 
 ### Lab 1 · Backlog audit
 
-The Lab Guide's 14 Fable items, word for word with who asked, scored 1 to 5 for impact on the Module 1 objective ("Make Fable the app people keep after the hard stretch passes") and for effort, after the lab's correction. High is 3 or more. The item text keeps the course's spelling, since rocks and hard nos go into prompts as written.
+The course brief's 14 Fable items, word for word with who asked, scored 1 to 5 for impact on the Module 1 objective ("Make Fable the app people keep after the hard stretch passes") and for effort, after the lab's correction. High is 3 or more. The item text keeps the course's spelling, since rocks and hard nos go into prompts as written.
 
 | # | Item | Asked by | Impact | Effort | Quadrant | Why |
 |---|---|---|---|---|---|---|

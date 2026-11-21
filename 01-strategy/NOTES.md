@@ -1,6 +1,6 @@
-# Module 1 notes: Write a Strategy That Can Survive a Test
+# Module 1 notes: strategy and OKRs
 
-Session 1, 16 Nov 2026. Sources: Module 1 slides and Lab Guide. Scenario: [README](../README.md#the-scenario-fable-growth). Output: [strategy-and-okrs.md](strategy-and-okrs.md).
+16 Nov 2026. Sources: module 1 of Product School's Product Leadership course. Scenario: [README](../README.md#the-scenario-fable-growth). Output: [strategy-and-okrs.md](strategy-and-okrs.md). Each point ends with my own critique, marked "Missed:".
 
 ## From PM to product leader
 
