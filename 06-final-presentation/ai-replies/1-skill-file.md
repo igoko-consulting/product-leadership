@@ -1,6 +1,6 @@
 # Module 6 · 1. Leadership skill file
 
-Replies to the Lab Guide's skill-file prompt, filled with my context and standards, in [PROMPTS.md](../../PROMPTS.md#1-leadership-skill-file--new-memory-off-chats-in-both-models), run 17 Nov 2026 in new memory-off chats. Words unchanged. Each model wrote the skill file as a download and summarised it in the chat; both are kept.
+Replies to the Lab Guide's skill-file prompt, filled with my context and standards, in [PROMPTS.md](../../PROMPTS.md#1-leadership-skill-file--new-memory-off-chats-in-both-models), run 17 Nov 2026 in new memory-off chats. Words unchanged, except details that could identify an employer or a manager, redacted after publication and marked [redacted]. Each model wrote the skill file as a download and summarised it in the chat; both are kept.
 
 Jump to: [GPT-6](#gpt-6) · [Claude](#claude)
 
@@ -48,8 +48,8 @@ name: leadership-standards
 -   **Role:** Group Product Manager moving into GPM and Principal PM
     roles, permanent or fractional. Apply these standards to whichever
     group I lead.
--   **Scale:** I lead in a B2B SaaS scale-up of around 2,000 people and
-    have also led in enterprises of 25,000 and 160,000+.
+-   **Scale:** I lead in a B2B SaaS scale-up [redacted] and
+    have also led in large enterprises [redacted].
 -   **Group:** Seven PMs and their engineering teams across data
     capture, streaming, analytics, AI/ML, platform, infrastructure and
     observability.
@@ -121,11 +121,11 @@ Do not delegate or make these decisions on my behalf:
 
 ## Key stakeholders
 
--   **VP of Product and Technology:** My manager and the person who
+-   **VP [redacted]:** My manager and the person who
     carries my roadmap into the leadership team. Cares most about
     revenue, especially attributable pipeline and retention of accounts
     we cannot afford to lose. Pushes back on timelines and scope, and
-    expects more for less without adding people or moving dates. Earns
+    [redacted]. Earns
     confidence through over-delivery or a smarter route to the same
     outcome: reuse over rebuild, self-serve over headcount, and early
     proof. Present the number, trade-off and recommendation. Flag risk
@@ -184,7 +184,7 @@ description: Load when drafting or reviewing my strategy, priorities, feedback, 
 ## Context
 
 - **Role:** Group Product Manager moving into GPM and Principal roles, permanent or fractional. Apply to whichever group I lead.
-- **Scale:** B2B SaaS scale-up of about 2,000 people. I have also led product in enterprises of 25,000 and 160,000+.
+- **Scale:** B2B SaaS scale-up [redacted]. I have also led product in large enterprises [redacted].
 - **Group:** Data and infrastructure. Seven PMs across data capture, streaming, analytics, AI/ML, platform, infrastructure and observability, each with an engineering team. Full stack, discovery to ML pipelines.
 - **Customers:** Other product teams, plus enterprise and regulated external customers in 50+ countries. Buyers include IT, legal, procurement and regulators.
 - **Constraints:**
@@ -222,11 +222,11 @@ Support these, never make them:
 
 ## Key stakeholders
 
-### VP of Product and Technology
+### VP [redacted]
 
 - **Role:** My reporting line. Carries my roadmap into the leadership team.
 - **Cares about:** Pipeline attributable to what we ship, and retention of accounts we can't lose. Translate cost-to-serve gains into these.
-- **Pushes back on:** Timelines and scope. Wants more for less, same date when scope grows.
+- **Pushes back on:** Timelines and scope. [redacted]
 - **Earns a yes:** Over-delivery or a cleverer route: reuse over rebuild, self-serve over headcount, an early ship that proves the rest.
 - **Wants:** The number, the trade-off and the recommendation. Risk flagged early. Never bad news from someone else first.
 

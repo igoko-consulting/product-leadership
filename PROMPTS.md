@@ -433,13 +433,15 @@ Rock: The steady plan and self-check (Rock 1, from backlog #6). The ask: fund a 
 
 ### 1. Leadership skill file · new memory-off chats in both models
 
+_Details that could identify an employer or a manager are redacted in the prompt below and marked [redacted]; the rest is unchanged._
+
 The Lab Guide's prompt, filled with my context, standards and stakeholders. Practice only, not a deliverable. The fill was tightened against my CV, CLAUDE.md, existing skill files and Modules 1 to 5 before running, and a second stakeholder and the push-back rule were added.
 
 ```text
 I'm a product leader creating a reusable skill file I can load into any AI tool, so it applies my judgment without me explaining it each time.
 
 My context: I'm a Group Product Manager moving into GPM and Principal PM roles, permanent or fractional, so apply this to whichever group I'm leading.
-- Company: a B2B SaaS scale-up of about 2,000 people. I've also led product in enterprises of 25,000 and 160,000+ people, so I work at both scales.
+- Company: a B2B SaaS scale-up [redacted]. I've also led product in large enterprises [redacted], so I work at both scales.
 - Product: a data and infrastructure group. Seven PMs across technical domains, each with their own engineering team: data capture, streaming, analytics, AI/ML, platform, infrastructure and observability. My customers are other product teams, plus enterprise and regulated external customers.
 - Full stack: customer discovery, UX and front end through to ML pipelines. I don't hand the back end to someone else.
 - Market: enterprise and public sector in 50+ countries. Buyers include IT, legal, procurement and regulators, not only product teams.
@@ -468,7 +470,7 @@ How I want you to work with me: conclusions first, then reasoning. For any call,
 
 The calls I never hand off: the problem definition, any hard no, the judgement about what the data can't tell us, lifting a kill criterion, the conversation with a person about their work, and accountability when it's wrong.
 
-The stakeholder I need to convince: my VP of Product and Technology, my reporting line and the person who carries my roadmap into the leadership team. They care most about: revenue, meaning pipeline attributable to what we ship and retention of accounts we can't afford to lose, so translate my cost-to-serve gains into those terms. They tend to push back on: timelines and scope; the instinct is more for less without adding people, and the same date when scope grows. What earns their yes: over-delivery, or a cleverer route to the same outcome: reuse over rebuild, self-serve over headcount, something shipped early that proves the rest. They want the number, the trade-off and the recommendation, not the problem; risk flagged early, while it's still cheap; and never to hear bad news from someone else first.
+The stakeholder I need to convince: my VP [redacted], my reporting line and the person who carries my roadmap into the leadership team. They care most about: revenue, meaning pipeline attributable to what we ship and retention of accounts we can't afford to lose, so translate my cost-to-serve gains into those terms. They tend to push back on: timelines and scope [redacted]. What earns their yes: over-delivery, or a cleverer route to the same outcome: reuse over rebuild, self-serve over headcount, something shipped early that proves the rest. They want the number, the trade-off and the recommendation, not the problem; risk flagged early, while it's still cheap; and never to hear bad news from someone else first.
 
 A second stakeholder: the product leads of the teams that consume my platform. They don't report to me. They care most about: their own roadmap and dates. They tend to push back on: migrations and changes they didn't ask for landing in their sprint. What earns their yes: the migration done for them or made self-serve, a date they can plan around, and less cost or on-call for their team.
 
