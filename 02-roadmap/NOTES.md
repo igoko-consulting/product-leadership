@@ -1,6 +1,6 @@
-# Module 2 notes: outcome roadmap
+# Module 2 notes: Turn Your Strategy into an Outcome Roadmap
 
-16 Nov 2026. Sources: module 2 of Product School's Product Leadership course. Builds on: [Module 1's strategy and OKRs](../01-strategy/strategy-and-okrs.md). Output: [outcome-roadmap.md](outcome-roadmap.md). Each point ends with my own critique, marked "Missed:".
+Session 2, 16 Nov 2026. Sources: Module 2 slides and Lab Guide. Builds on: [Module 1's strategy and OKRs](../01-strategy/strategy-and-okrs.md). Output: [outcome-roadmap.md](outcome-roadmap.md).
 
 ## Rocks, pebbles and sand
 
@@ -46,7 +46,7 @@
 
 ### Lab 1 · Backlog audit
 
-The course brief's 14 Fable items, word for word with who asked, scored 1 to 5 for impact on the Module 1 objective ("Make Fable the app people keep after the hard stretch passes") and for effort, after the lab's correction. High is 3 or more. The item text keeps the course's spelling, since rocks and hard nos go into prompts as written.
+The Lab Guide's 14 Fable items, word for word with who asked, scored 1 to 5 for impact on the Module 1 objective ("Make Fable the app people keep after the hard stretch passes") and for effort, after the lab's correction. High is 3 or more. The item text keeps the course's spelling, since rocks and hard nos go into prompts as written.
 
 | # | Item | Asked by | Impact | Effort | Quadrant | Why |
 |---|---|---|---|---|---|---|
@@ -84,4 +84,4 @@ The course brief's 14 Fable items, word for word with who asked, scored 1 to 5 f
 - **Timing fixed in Module 5:** the Next signal said at least 45% day-180 retention "by month 6", which can't be measured then, since v1 ships around month 6; it now reads the first two monthly cohorts to reach day 180 on v1. Bet 1's signal also gained sample sizes (at least 400 invited, 150 churned participants). Missed: both came from the CFO stress-test of the business case, which read the roadmap's numbers more closely than any roadmap review had. The pre-Module 6 pass then gave KR3 the same cohort timing, put the matched holdout into Bet 1, and replaced "stop and rethink" with the business case's consequence.
 - **Fixed after the Module 6 board review:** Bet 1 invites at least 500 churned and 400 current users, with 30% of each opting in, since "at least 30% of at least 400" only guaranteed 120 participants, not the 150 churned ones the paid-return test needs; its wind-down measure must also beat the matched holdout by at least 15 points; Bet 3's session starts per reminder must rise by at least 20%; Rock 1 reads as a reframe of backlog #6, whose name described the monitoring Module 1 ruled out; and the employer offer left Later, since Where to play rules employers out. Replies: [board review](../06-final-presentation/ai-replies/2-board-review.md). Missed: about 270 hand-built plans instead of about 150 adds load on the content team, though the quarter's cost is team time and holds at about $0.6M; and the [visual](ai-replies/3-visual-claude.png) still shows the employer card, which matters less now the builder has no image field.
 - **Fixed after the second board review:** Next's success signals are labelled per item, as Later's are, so each measure belongs to one bet; two new placeholders fill the gaps (the signposting partner live before the first self-check ships, and annual renewal at month 12 above today's rate). Growth joins Bet 1 for the email that invites churned users, the channel the charter gives it; the holdout also gets the reminder and load-time fixes, so the lift counted is the steady plan's alone; and Hard no 3 and Rock 1 lost the course references a board wouldn't follow. Replies: [second review](../06-final-presentation/ai-replies/3-board-review-revised.md). Missed: PM 2 still leads most of Now and Next, which a board may question, though one PM accountable for KR1 to KR3 is the charter's design.
-- **Placeholders:** the success-signal thresholds (30% opt-in in each group, 35% using the wind-down three or more nights a week and 15 points above the holdout, 10% paid return, session starts per reminder up 20%, 98% of reminders on time, opt-outs down 30% relative, KR3 at 50% for the first two monthly cohorts on v1, annual renewal above today's rate) are starting points, not Fable data. They wait for Fable's own baselines, an open item in the README.
+- **Placeholders:** the success-signal thresholds (30% opt-in in each group, 35% using the wind-down three or more nights a week and 15 points above the holdout, 10% paid return, session starts per reminder up 20%, 98% of reminders on time, opt-outs down 30% relative, KR3 at 50% for the first two monthly cohorts on v1, annual renewal above today's rate) are starting points, not Fable data. Module 5 sets them against baselines.

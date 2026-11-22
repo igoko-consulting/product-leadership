@@ -26,7 +26,7 @@
 
 ## 5. The model behind it
 
-Every input is an estimate, since the scenario gives no price or cohort sizes; the open items list what to replace with Fable's own data before the case goes to a board.
+Every input is an estimate, since the scenario gives no price or cohort sizes; the open items list what to replace with Fable's own data before presenting.
 
 | Input | Value |
 |---|---|
